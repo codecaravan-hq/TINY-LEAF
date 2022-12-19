@@ -13,9 +13,6 @@ function Header() {
           <li>
             <Link to="/Menu">Blogs</Link>
           </li>
-          {/* <li>
-            <Link to="/Article">Article</Link>
-          </li> */}
           <li>
             <Link to="/Reservation">Reservation</Link>
           </li>
