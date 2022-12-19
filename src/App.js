@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import Menu from "./pages/Menu"
 import Reservation from "./pages/Reservation"
 import Layout from './pages/layout/Layout';
-import Article from './pages/layout/Article';
+// import Article from './pages/layout/Article';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Layout>    
 
       <Routes >
-        <Route path='/article' element={<Article/>} />
+        {/* <Route path='/article' element={<Article/>} /> */}
        <Route path="/home" element={<Home />} />
        <Route path="/menu" element={<Menu />} />
        <Route path="/reservation" element={<Reservation />} />
