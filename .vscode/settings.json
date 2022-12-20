@@ -1,8 +1,0 @@
-{
-    "scm.alwaysShowRepositories": true,
-    "scm.alwaysShowActions": true,
-    "scm.providerCountBadge": "hidden",
-    "files.autoSave": "onFocusChange",
-    "editor.multiCursorPaste": "full",
-    "files.autoGuessEncoding": true
-}
