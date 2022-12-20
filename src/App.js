@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import Menu from "./pages/Menu"
 import Reservation from "./pages/Reservation"
 import Layout from './pages/layout/Layout';
-// import Article from './pages/layout/Article';/ 
+// import Article from './pages/layout/Article';/ .
 
 function App() {
   return (
