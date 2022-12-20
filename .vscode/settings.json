@@ -1,6 +1,5 @@
 {
-    "thunder-client.saveToWorkspace": false,
+    "scm.alwaysShowRepositories": true,
     "scm.alwaysShowActions": true,
-    "scm.providerCountBadge": "visible",
-    "scm.alwaysShowRepositories": true
+    "scm.providerCountBadge": "hidden"
 }
