@@ -1,0 +1,27 @@
+/*:root {
+    --colour-sage: #86907D;
+    --colour-biscuit: #F0D989;
+    --colour-black: #111;
+    --colour-white: #fff;
+  
+    --font-roboto: "Roboto", Arial, sans-serif;
+  }*/
+.header {
+  display: flex;
+  background-color: #86907D;
+  justify-content: end;
+}
+
+.links {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  gap: 9px;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}

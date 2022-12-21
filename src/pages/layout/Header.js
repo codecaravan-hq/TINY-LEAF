@@ -1,12 +1,14 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
+import '../Style/Header/Header.scss';
+
 
 
 function Header() {
   return (
-    <div>
+    <div className='header'>
         <nav>
-        <ul>
+        <ul className='links'>
           <li>
             <Link to="/Home">Home</Link>
           </li>

@@ -1,0 +1,24 @@
+@import '../Variables/Variables.scss';
+
+.header {
+    display: flex;
+    background-color: $sageColor;
+    justify-content: end;
+    
+}
+
+.links {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    gap: 9px;
+    justify-content: end;
+    margin-top: 30px;
+
+
+
+}
+a {
+    text-decoration: none;
+}

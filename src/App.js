@@ -1,10 +1,11 @@
-import './global.css';
-import ReactDOM from "react-dom/client";
+import "../src/global.css";
+// import ReactDOM from "react-dom/client";
 import {Route, Routes} from 'react-router-dom'
 import Home from "./pages/Home"
 import Menu from "./pages/Menu"
 import Reservation from "./pages/Reservation"
 import Layout from './pages/layout/Layout';
+
 // import Article from './pages/layout/Article';/ ...
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 }
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<App />);
 
 export default App;
