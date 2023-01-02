@@ -9,7 +9,13 @@
 .header {
   display: flex;
   background-color: #86907D;
-  justify-content: end;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo1 {
+  height: 1.9rem;
+  padding-left: 5rem;
 }
 
 .links {
@@ -17,11 +23,13 @@
   height: 40px;
   display: flex;
   list-style: none;
-  gap: 9px;
+  gap: 20px;
   justify-content: end;
   margin-top: 30px;
 }
 
-a {
+li a {
   text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Cormorant';
 }
