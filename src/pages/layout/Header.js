@@ -8,7 +8,7 @@ import '../Style/Header/Header.scss';
 function Header() {
   return (
     <div className='header'>
-        <img className='logo1' src={logo} alt='' srcSet=''/>
+        <img className='theLogo' src={logo} alt='' srcSet=''/>
         <nav>
         <ul className='links'>
           <li>
