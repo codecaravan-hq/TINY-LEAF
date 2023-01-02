@@ -5,7 +5,7 @@ function menu() {
   return (
     <div>
         {/* <Layout> */}
-            <h1>Title</h1>
+            <h2>Title</h2>
             <p>Hello</p>
         {/* </Layout> */}
     </div>

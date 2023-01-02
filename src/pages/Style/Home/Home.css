@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap");
+/*:root {
+    --colour-sage: #86907D;
+    --colour-biscuit: #F0D989;
+    --colour-black: #111;
+    --colour-white: #fff;
+
+    --font-roboto: "Roboto", Arial, sans-serif;
+  }*/
+h2 {
+  color: black;
+  font-family: "Cormorant";
+  font-size: 85px;
+  font-style: normal;
+  line-height: 96.8px;
+  position: absolute;
+  text-align: center;
+}
+
+.centralText {
+  justify-content: center !important;
+}/*# sourceMappingURL=Home.css.map */

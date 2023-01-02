@@ -3,7 +3,7 @@ import React from 'react'
 function reservation() {
   return (
     <div>
-      <h1>Reservation</h1>
+      <h3>Reservation</h3>
     </div>
   )
 }

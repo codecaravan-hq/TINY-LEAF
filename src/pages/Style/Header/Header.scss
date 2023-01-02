@@ -1,13 +1,25 @@
 @import '../Variables/Variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap');
+
 
 .header {
     display: flex;
     background-color: $sageColor;
     align-items: center;
     justify-content: space-between;
+    .menuIcon {
+    display: none;
+}
 }
 
-.theLogo{
+.content {
+    width: 100%;
+    height: 620px;
+}
+
+
+
+.theLogo{  
     height: 1.9rem;
     padding-left: 5rem;
 }
@@ -28,4 +40,35 @@ li a {
     color: #FFFFFF;
     font-family: 'Cormorant';
 
+}
+
+// media query
+
+@media (max-width:720px) {
+    .Header {
+        .menuIcon {
+            display: block;
+        }
+        nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: #86907D;
+            height: 100vh;
+            width: 100%;
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100;
+                width: 100%;
+                li {
+                    padding:  0.5rem 3rem;
+                    width: 20rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
