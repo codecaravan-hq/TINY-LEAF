@@ -6,7 +6,7 @@ import Home from '../pages/Style/Home/Home.scss'
 function home() {
   return (
     <div>
-     <h2 element={Home}>A flavour for all <br />seasons</h2>
+     <h1 element={Home}>A flavour for all <br />seasons</h1>
      <img className='first' src={first} alt='' srcSet=''/>
     </div>
   )
