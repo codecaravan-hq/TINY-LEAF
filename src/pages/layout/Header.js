@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../img/full-logo.png'
 import { Outlet, Link } from "react-router-dom";
-
 import '../Style/Header/Header.scss';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
