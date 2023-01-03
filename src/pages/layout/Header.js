@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../img/theLogo.png'
 import { Outlet, Link } from "react-router-dom";
 import '../Style/Header/Header.scss';
-import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
+// import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
 
 function Header() {
@@ -22,12 +22,11 @@ function Header() {
           </li>
         </ul>
       </nav>
-      
-      <MenuRoundedIcon className="menuIcon" style={{fontSize:"xx-large"}}/>
       <Outlet />
     </div>
   )
 }
 
 export default Header
+      // <MenuRoundedIcon className="menuIcon" style={{fontSize:"xx-large"}}/>
 
