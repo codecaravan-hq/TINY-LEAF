@@ -9,6 +9,7 @@ function Header() {
   return (
     <div className='header'>
         <img className='theLogo' src={logo} alt='' srcSet=''/>
+
         <nav>
         <ul className='links'>
           <li>
@@ -22,6 +23,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+
       <Outlet />
     </div>
   )
