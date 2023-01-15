@@ -34,7 +34,7 @@
 
 li a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Cormorant";
 }
 
@@ -43,30 +43,30 @@ li a {
     display: flex;
     background-color: yellow;
   } /*
-  .menuIcon {
-      display: block;
-  }
-  nav {
-      position: fixed;
-      left: 0;
-      top: 0;
-      background: #86907D;
-      height: 100vh;
-      width: 100%;
-  }
-      ul {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          height: 100;
-          width: 100%;
-          li {
-              padding:  0.5rem 3rem;
-              width: 20rem;
-              text-align: center;
-          }
+    .menuIcon {
+        display: block;
+    }
+    nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #86907D;
+        height: 100vh;
+        width: 100%;
+    }
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100;
+            width: 100%;
+            li {
+                padding:  0.5rem 3rem;
+                width: 20rem;
+                text-align: center;
+            }
 
 
-      }*/
+        }*/
 }/*# sourceMappingURL=Header.css.map */
