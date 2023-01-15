@@ -8,7 +8,7 @@
     --font-roboto: "Roboto", Arial, sans-serif;
   }*/
 .grid-container {
-  border: 2px solid #daa520;
+  border: 1.9px solid #daa520;
   display: grid;
   grid-template-columns: 60px 5fr 80px 6fr 60px;
   grid-template-rows: 50px 1fr 1fr 50px;
