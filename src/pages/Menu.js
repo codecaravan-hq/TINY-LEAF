@@ -1,7 +1,7 @@
 import React from 'react'
 // import Layout from './layout/Layout'
 
-function menu() {
+function Menu() {
   return (
     <div>
         {/* <Layout> */}
@@ -12,4 +12,4 @@ function menu() {
   )
 }
 
-export default menu
+export default Menu
