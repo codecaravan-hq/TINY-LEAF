@@ -26,6 +26,28 @@ body {
 
 }
 
+.about {
+    display: grid;
+  }
+  
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .about-text {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .about-img {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  
+  
+
+
 @media (max-width:720px) {
     .hero-title {
         color: red;
