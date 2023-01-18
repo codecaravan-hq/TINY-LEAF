@@ -4,6 +4,7 @@ import img2 from "../pages/img/img-2.png";
 import teapot from "../pages/img/teapot.png";
 import flowers from "../pages/img/flowers.png";
 import "../pages/Style/Home/Home.scss";
+import teaBook from "../pages/img/teaBook.png";
 
 function Home() {
   return (
@@ -42,6 +43,19 @@ function Home() {
         </div>
         <img className="teapot-image" src={teapot} alt="" />
         <img className="flowers-image" src={flowers} alt="" />
+      </section>
+
+      <section className="image-with-text-container">
+        <img className="tea-book-image" src={teaBook} alt="" />
+        <div className="text-overlay">
+          <h4 className="reserv">Make a reservation</h4>
+          <p>
+            For anything from a catchup with a long lost friend to a book club
+            gathering... we’re always ready to put the kettle on.
+          </p>
+          <input type="button" placeholder="Reserve a table" />
+
+        </div>
       </section>
     </div>
   );

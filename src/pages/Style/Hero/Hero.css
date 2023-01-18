@@ -3,12 +3,12 @@
     --colour-biscuit: #F0D989;
     --colour-black: #111;
     --colour-white: #fff;
-
+  
     --font-roboto: "Roboto", Arial, sans-serif;
   }*/
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap");
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto,sans-serif;
 }
 
 .about {
@@ -31,7 +31,7 @@ body {
   color: #F0D989;
   padding-top: 2rem;
   font-size: 4rem;
-  font-family: "Cormorant", serif;
+  font-family: 'Cormorant', serif;
 }
 
 .about-img {
@@ -40,7 +40,6 @@ body {
 
 /*the second img*/
 .theImg {
-  width: 100%;
   margin-right: 1em;
 }
 
@@ -48,4 +47,4 @@ body {
   border-top: 1px solid #F0D989;
   width: 25%;
   margin: 0px;
-}/*# sourceMappingURL=Hero.css.map */
+}

@@ -36,9 +36,16 @@ li a {
   .header {
     display: flex;
     background-color: yellow;
-  } /*
+  }
+  .tea-book-image {
+    
+    width: 100%;
+  }
+
+ 
+   /*
         .menuIcon {
-            display: block;
+            display: flex;
         }
         nav {
             position: fixed;
