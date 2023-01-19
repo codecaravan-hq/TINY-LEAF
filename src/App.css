@@ -1,45 +1,42 @@
-
-.header{
+.header {
   /* border: 2px red solid; */
   width: 100%;
   height: 60px;
-  background-color:#86907D;
+  background-color: #86907d;
   display: flex;
   justify-content: space-between;
 }
 
-.logoicon{
+.logoicon {
   width: 32px;
   height: 22.22px;
   padding-left: 20px;
   margin-top: 18px;
 }
 
-.logotext{
+.logotext {
   width: 180px;
   height: 25.88px;
   padding-left: 66px;
   margin-top: 17px;
-
 }
 
-.nav-ul{
+.nav-ul {
   display: none;
 }
 
 /* ///////Hero//////////// */
-.hero-image{
+.hero-image {
   width: 100%;
   height: 690px;
   padding-top: 10px;
   background-position: center;
   background-image: url(./images/Hero-image.png);
-  
 }
 
 /* ////////About//////// */
 
-.about{
+.about {
   border: solid 1px red;
   width: 339px;
   height: 1702px;
@@ -47,20 +44,20 @@
   margin-top: 60px;
 }
 
-.ourblends{
+.ourblends {
   border: solid 1px black;
   width: 100%;
   height: 715px;
 }
 
-.ourblends-image{
+.ourblends-image {
   width: 100%;
   height: 293px;
   display: flex;
   justify-content: space-around;
 }
 
-.blends-heading{
+.blends-heading {
   width: 139px;
   height: 40px;
   display: flex;
@@ -69,7 +66,7 @@
   align-content: flex-start;
 }
 
-.body-text{
+.body-text {
   width: 335px;
   height: 130px;
   display: flex;
@@ -77,59 +74,58 @@
   text-align: left;
   padding: 3px;
   margin-top: 20px;
- 
 }
 
-.text-feature{
+.text-feature {
   width: 335px;
   height: 135px;
   display: flex;
   margin-top: 40px;
 }
 /* /////////// */
-.wise-leaf{
+.wise-leaf {
   border: 1px solid red;
   width: 100%;
   height: 927px;
   margin-top: 60px;
 }
 
-.coffepot-image{
+.coffepot-image {
   width: 100%;
   height: 417px;
 }
 
-.teacup{
+.teacup {
   width: 337px;
   height: 170px;
   margin-top: 35px;
 }
 
-.teacup-image{
+.teacup-image {
   width: 100%;
 }
 
-.tex-box{
+.tex-box {
   width: 339px;
   height: 259px;
   margin-top: 40px;
-  background-color:  #86907D;
+  background-color: #86907d;
 }
 
 /* /////////Reservation//////// */
 
-.reservation{
+.reservation {
   border: solid 1px blue;
   width: 100%;
   height: 640px;
   margin-top: 60px;
-  background-color:rgba(15, 15, 15, 0.2);
+  background-color: rgba(15, 15, 15, 0.2);
   background-image: url(./images/Background.png);
   background-size: 380px 640px;
   background-repeat: no-repeat;
 }
 
-.content{
+.content {
   border: solid 1px red;
   width: 335px;
   height: 349px;
@@ -137,92 +133,122 @@
   margin-left: 22px;
 }
 
-.title{
+.title {
   text-align: center;
 }
-.subtitle{
+.subtitle {
   text-align: center;
 }
-button{
+button {
   align-items: center;
 }
 
-.gallery{
+.gallery {
   border: solid 1px red;
   width: 380px;
   height: 305px;
   margin-top: 60px;
 }
 
-
 /* ///////FOOTER////// */
 
-.footer{
-  border: solid 1px blue;
+.footer {
+  /* border: solid 1px blue; */
   width: 100%;
   height: 709px;
   margin-top: 60px;
-  background-color: #86907D;
+  background-color: #86907d;
 }
 
-.logofooter{
+.logofooter {
   display: flex;
   flex-direction: column;
 }
 
-.logo-footer{
+.logo-footer {
   width: 63px;
   height: 44px;
   margin-left: 158px;
   margin-top: 60px;
 }
 
-.logo-text-footer{
+.logo-text-footer {
   width: 223px;
   height: 32px;
   margin-left: 76px;
   margin-top: 24px;
 }
 
-.social{
-  width: 65px;
-  height: 27px;
-  margin-left: 290px;
-  margin-top: 180px;
+.items-list {
+  margin-left: 0px;
+  color: white;
 }
 
-.copyright{
+ul {
+  list-style-type: none;
+}
+
+.cormorant {
+  font-family: cormorant;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.roboto {
+  font-family: roboto;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 105px;
+  margin-right: 20px;
+}
+
+.instagram{
+  margin-right: 11px;
+}
+
+.copyright {
+  font-family: roboto;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  color: #FFFFFF;
   text-align: center;
 }
 
-@media only screen and (min-width: 768px){
-
-
+@media only screen and (min-width: 768px) {
 }
 
-@media only screen and (min-width: 1440px){
-  .hamburger{
+@media only screen and (min-width: 1440px) {
+  .hamburger {
     display: none;
   }
-/* ////////about section/////// */
+  /* ////////about section/////// */
 
-  .about{
+  .about {
     width: 1218px;
     height: 1254px;
     margin-left: 111px;
     margin-top: 130px;
   }
 
-  .ourblends{
+  .ourblends {
     border: solid 1px black;
     width: 100%;
     height: 533px;
   }
-  
-  .ourblends-image{
+
+  .ourblends-image {
     width: 593px;
     height: 533px;
     display: flex;
   }
-
-  }
+}
