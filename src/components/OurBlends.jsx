@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "../images/BlendsImage.png";
-import ImageFeature from '../images/Textfeature.png';
 
 export default function OurBlends() {
   return (
@@ -23,7 +22,8 @@ export default function OurBlends() {
       </div>
 
       <div className="text-feature">
-        <img src={ImageFeature} alt="" />
+        <div className="line"></div>
+        <h4 className="text-hand-pick">Hand-picked and sustainable</h4>
       </div>
 
     </div>
