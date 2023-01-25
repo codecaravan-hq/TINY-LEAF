@@ -4,7 +4,9 @@ import img2 from "../pages/img/img-2.png";
 import teapot from "../pages/img/teapot.png";
 import flowers from "../pages/img/flowers.png";
 import "../pages/Style/Home/Home.scss";
-import teaBook from "../pages/img/teaBook.png";
+// import teaBook from "../pages/img/teaBook.png";
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -28,7 +30,9 @@ function Home() {
           </h2>
         </section>
         <section className="about-img">
-          <img className="theImg" src={img2} alt="" />
+          <div>
+          <img className="greenLeaf" src={img2} alt="" />
+          </div>
         </section>
       </div>
       <section className="grid-container">
@@ -46,15 +50,14 @@ function Home() {
       </section>
 
       <section className="image-with-text-container">
-        <img className="tea-book-image" src={teaBook} alt="" />
+        {/* <img className="tea-book-image" src={teaBook} alt="" /> */}
         <div className="text-overlay">
           <h4 className="reserv">Make a reservation</h4>
           <p>
             For anything from a catchup with a long lost friend to a book club
             gathering... we’re always ready to put the kettle on.
           </p>
-          <input type="button" placeholder="Reserve a table" />
-
+          <Link className="grid-button" to="/Reservation"> <button className="my-button my-button-padding" >Reserve a table</button> </Link> 
         </div>
       </section>
     </div>
