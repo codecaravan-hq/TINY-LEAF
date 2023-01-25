@@ -1,3 +1,4 @@
+import './Footer.css';
 import React from 'react'
 import LogoFooter from './LogoFooter';
 import Items from './Items';
