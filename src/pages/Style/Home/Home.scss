@@ -79,14 +79,14 @@ h2 {
 .first-paragraph {
     font-size: 21px;
     font-family: Roboto;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
   padding-top: 1.2rem;
   line-height: 1.5rem;
 }
 
 .text-subheading {
   color: $biscuitColor;
-  padding-top: 7rem;
+  padding-top: 3rem;
   font-size: 4rem;
   font-family: 'Cormorant', serif;
 }
@@ -99,7 +99,7 @@ h2 {
 
 /*the second img*/
 .greenLeaf {
-    width: 51rem;
+    width: 35rem;
 }
 
 .yelow-line {
@@ -111,7 +111,7 @@ margin: 0px;
         /* third section */
 .grid-container {
     display: grid;
-    grid-template-columns: 74px 6fr 80px 6fr 70px;
+    grid-template-columns: 70px 6fr 80px 6fr 70px;
     grid-template-rows: 60px 1fr 1fr 65px;
     padding: 5rem;
   }

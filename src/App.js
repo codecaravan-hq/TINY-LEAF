@@ -20,7 +20,7 @@ function App() {
        <Route path="/menu" element={<Menu />} />
        <Route path="/reservation" element={<Reservation />} />
       </Routes>
-
+        
       </Layout>
 
 

@@ -6,6 +6,7 @@ import flowers from "../pages/img/flowers.png";
 import "../pages/Style/Home/Home.scss";
 // import teaBook from "../pages/img/teaBook.png";
 import { Link } from 'react-router-dom';
+import Gallery from './layout/Gallery';
 
 
 function Home() {
@@ -60,6 +61,7 @@ function Home() {
           <Link className="grid-button" to="/Reservation"> <button className="my-button my-button-padding" >Reserve a table</button> </Link> 
         </div>
       </section>
+      <Gallery />
     </div>
   );
 }
