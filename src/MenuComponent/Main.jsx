@@ -12,5 +12,5 @@ export default function Main() {
       <SpecialMenu/>
       <ReservationMenue/>
     </div>
-  )
+  );
 }
