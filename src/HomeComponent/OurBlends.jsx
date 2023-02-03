@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "../images/BlendsImage.png";
+import './OurBlends.css';
 
 export default function OurBlends() {
   return (
     <div className="ourblends">
       <div className="blends-heading-box">
         <h3 className='blends-heading-text'>Our blends</h3>
-      </div>
-
-      <div className="body-text-box">
         <h4 className="body-text">
           We make our very own Tiny Leaf blends right here in the tea house,
           offering new flavours according to the season. We source all our

@@ -1,0 +1,26 @@
+.header {
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 60px;
+    background-color: #86907d;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logoicon {
+    width: 32px;
+    height: 22.22px;
+    padding-left: 20px;
+    margin-top: 18px;
+  }
+  
+  .logotext {
+    width: 180px;
+    height: 25.88px;
+    padding-left: 34px;
+    margin-top: 17px;
+  }
+  
+  .nav-ul {
+    /* display: none; */
+  }

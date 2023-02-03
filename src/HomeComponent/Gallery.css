@@ -1,0 +1,30 @@
+.gallery {
+    /* border: solid 1px red; */
+     width: 100%;
+     height: 305px;
+     margin-top: 60px;
+     margin-left: 20px;
+     margin-bottom: 60px;
+   }
+   
+   .carousel .thumbs{
+     width: 5%;
+     height: 50px;
+     display: none;
+   }
+   
+   .gallery-text{
+     height: 35px;
+     width: 98px;
+     left: 21px;
+     font-family: Cormorant;
+     font-size: 30px;
+     font-weight: 500;
+     line-height: 36px;
+     text-align: left;
+     margin-top: 0px;
+   }
+   .main-slide img{
+     width: 200px;
+     height: 250px;
+   }

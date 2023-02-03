@@ -2,7 +2,7 @@
     border: solid 1px blue;
     width: 90%;
     margin: 5%;
-    height: 1171px;
+    height: 1054px;
     margin-top: 60px;
 }
 
@@ -55,7 +55,7 @@ h2{
     margin-top: 28px;
 }
 
-.title-group{
+.menu-item-title{
     font-family: Cormorant;
     font-size: 24px;
     font-weight: 500;
@@ -65,7 +65,7 @@ h2{
     margin-top: 0px;
 }
 
-.description{
+.menu-item-description{
     font-family: Roboto;
     font-size: 19px;
     font-weight: 400;
@@ -73,5 +73,9 @@ h2{
     text-align: left;
     color:#525252;
     margin-top: -27px;
-    padding-right: 28%
+    padding-right: 10%
+}
+
+.price{
+    margin-top: -23px;
 }
