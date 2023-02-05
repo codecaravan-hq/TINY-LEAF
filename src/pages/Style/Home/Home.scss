@@ -55,8 +55,13 @@
               /*    FULL SCREEN    */
 
 @media(min-width: 720px) {
-
-
+  /*  this gat is visible only in inspect in the browser */
+  .thumbs-wrapper {
+    display: none;
+  }
+  .control-dots {
+    display: none;
+}
         /* second section */
        
 

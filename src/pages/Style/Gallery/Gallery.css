@@ -1,0 +1,76 @@
+.theGallery .slide {
+  height: 50rem;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.slider li {
+  height: 34.75rem;
+  width: 51.5625rem;
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-family: "Cormorant";
+  font-size: 40px;
+  padding: 2px;
+  color: #0f0f0f;
+  margin-bottom: 5px;
+}
+
+/* RIGHT buttons*/
+.button .control-arrow .control-prev .control-disabled {
+  display: none;
+}
+
+/* LEFT button*/
+.control-arrow {
+  display: none;
+}
+
+/* THE BUTTON'S  */
+.button-container {
+  display: flex;
+  margin-left: 64rem;
+}
+
+/*  THE BUTTONS SEPARATE*/
+.arrow-previous {
+  background-image: url("../../img/arrow-previous.png");
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  background-position: center;
+  font-size: 3rem;
+  border: none;
+  background-color: none;
+}
+
+.arrow-next {
+  background-image: url("../../img/arrow-next.png");
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  background-position: center;
+  font-size: 3rem;
+  border: none;
+}
+
+/*  the gap between the BUTTON'S  */
+.arrow-previous,
+.arrow-next {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px; /* add this to create a gap */
+}
+
+.carousel-status {
+  display: none;
+}
+
+.theGallery .slide img {
+  display: inline-flex;
+}
+
+.slider.animated {
+  display: flex;
+  margin-bottom: -13rem;
+}/*# sourceMappingURL=Gallery.css.map */
