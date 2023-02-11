@@ -1,46 +1,44 @@
 .home-reservation {
-    border: solid 1px blue;
-    background-color: rgba(15, 15, 15, 0.2);
-    background-image: url(../images/Background.png);
-    background-size: cover;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-  }
-  
-  .content {
-    text-align: center;
-  }
-  
-  .title {
-    font-family: Cormorant;
-    font-size: 54px;
-    font-weight: 500;
-    line-height: 65px;
-    text-align: center;
-    color: white;
-  
-  }
-  .subtitle {
-    font-family: Roboto;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: center;
-    color: white;
-    padding: 11px;
-  }
+  /* border: solid 1px blue; */
+  background-color: rgba(15, 15, 15, 0.2);
+  background-image: url(../images/Background.png);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
 
-  .table-reserve{
-    font-family: cormorant;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-    color: #86907D;
-    width: 244px;
-    height: 58px;
-    margin-bottom: 90px;
-  }
-  
+.content {
+  text-align: center;
+}
+
+.title {
+  font-family: Cormorant;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  text-align: center;
+  color: white;
+}
+.subtitle {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: white;
+  padding: 11px;
+}
+
+.table-reserve {
+  font-family: cormorant;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #86907d;
+  width: 244px;
+  height: 58px;
+  margin-bottom: 90px;
+}

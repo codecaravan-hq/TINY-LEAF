@@ -1,6 +1,9 @@
 .hero-image {
     width: 100%;
     height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* padding-top: 10px; */
     background-position: center;
     background-image: url(../images/Hero-image.png);
@@ -8,17 +11,10 @@
   }
   
   .hero-text {
-    width: 335px;
-    /* height: 131px; */
-    /* margin-top: 159px; */
-    text-align: center;
-    position: absolute;
-    top: 97%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-family: cormorant;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 65px;
+    text-align: center;
   }

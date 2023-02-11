@@ -2,7 +2,7 @@
 .about {
   /* border: solid 1px red; */
   width: 90%;
-  height: 1702px;
+  height: auto;
   margin: 5%;
   margin-top: 60px;
 }
@@ -14,27 +14,117 @@
   .hamburger {
     display: none;
   }
-  .nav-ul {
-    display:list-item
-  }
-  /* ////////about section/////// */
 
-  .about {
-    width: 1218px;
-    height: 1254px;
-    margin-left: 111px;
-    margin-top: 130px;
+  .hero-text h1 {
+    color: white;
+    font-family: cormorant;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 97px;
+    width: 471px;
   }
 
   .ourblends {
-    border: solid 1px black;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     height: 533px;
   }
 
+  .body-text {
+    width: 375px;
+  }
+
+  .text-feature-box {
+    /* border: 1px solid blue; */
+    /* width: 100%; */
+    /* height: 155px; */
+    margin-top: -178px;
+    width: 400px;
+  }
+
+  .line {
+    margin-top: -300px;
+  }
+
+  .text-hand-pick {
+    padding-top: 54px;
+    width: 328px;
+  }
+
+  .image-blends {
+    display: flex;
+    margin-top: -223px;
+  }
   .ourblends-image {
     width: 593px;
-    height: 533px;
     display: flex;
+    margin-left: auto;
+  }
+  .wiseleaf-container {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 104px 7fr 2fr 7fr 104px;
+    grid-template-rows: 60px 197px 231px 60px;
+  }
+
+  .green-box {
+    background-color: #86907d;
+    grid-column: 2/5;
+    grid-row: 1/4;
+  }
+
+  .text-box {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+  }
+
+  .text-box h3 {
+    margin-top: -44px;
+  }
+
+  .banner {
+    grid-column: 1/ 3;
+    grid-row: 2 / 5;
+  }
+
+  .teacup {
+    margin-top: 0px;
+    grid-column: 4/ 6;
+    grid-row: 3 / 5;
+  }
+
+  .home-reservation {
+    background-size: cover;
+    width: 100%;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .content {
+    width: 446px;
+  }
+
+  .footer {
+    /* border: solid 1px blue; */
+    height: 359px;
+  }
+
+  .items-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -76px;
+  }
+
+  .social {
+  }
+
+  .copyright {
+    display: flex;
+    margin-top: -32px;
+    padding-left: 150px;
   }
 }

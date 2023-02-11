@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       <nav>
         <button className="hamburger">
           <img src={BergerIcon} alt="" />
         </button>
-        <ul className="nav-ul">
-          <Link to="/">Home</Link>
-          <Link to="/Menu">Menu</Link>
-          <Link to="/Reservations">Resevations</Link>
+        <ul>
+          <li><Link className="nav-links" to="/">Home</Link></li>
+          <li><Link className="nav-links" to="/Menu">Menu</Link></li>
+          <li><Link className="nav-links" to="/Reservations">Resevations</Link></li>
         </ul>
       </nav>
     </div>
