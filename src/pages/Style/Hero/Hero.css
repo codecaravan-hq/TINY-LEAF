@@ -1,0 +1,12 @@
+/*:root {
+    --colour-sage: #86907D;
+    --colour-biscuit: #F0D989;
+    --colour-black: #111;
+    --colour-white: #fff;
+
+    --font-roboto: "Roboto", Arial, sans-serif;
+  }*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap");
+body {
+  font-family: Roboto, sans-serif;
+}/*# sourceMappingURL=Hero.css.map */

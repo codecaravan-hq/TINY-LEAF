@@ -1,0 +1,73 @@
+@import "../Variables/Variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap");
+
+.header {
+  display: flex;
+  background-color: $sageColor;
+  align-items: center;
+  justify-content: space-between;
+  .menuIcon {
+    display: none;
+  }
+}
+
+.theLogo {
+  height: 1.9rem;
+  padding-left: 5rem;
+}
+
+.links {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Cormorant";
+}
+
+@media (max-width: 720px) {
+  .header {
+    display: flex;
+    background-color: yellow;
+  }
+  .tea-book-image {
+    
+    width: 100%;
+  }
+
+ 
+   /*
+        .menuIcon {
+            display: flex;
+        }
+        nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: #86907D;
+            height: 100vh;
+            width: 100%;
+        }
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100;
+                width: 100%;
+                li {
+                    padding:  0.5rem 3rem;
+                    width: 20rem;
+                    text-align: center;
+                }
+            
+        
+            }*/
+}
