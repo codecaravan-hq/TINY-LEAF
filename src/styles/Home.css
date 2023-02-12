@@ -1,0 +1,98 @@
+
+.home-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/Home/Hero.png");
+  font-family: "Cormorant", serif;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.hero-title {
+  color: var(--colour-white);
+  padding: 0px 50px;
+  font-size: 88px;
+}
+
+/* about section*/
+.blend-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.blend-img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.item {
+  flex-basis: 100%;
+  padding: 30px;
+}
+
+.line{
+  background-color: var(--colour-biscuit);
+  width: 30%;
+  height: 3px;
+  margin-left: 20px;
+}
+
+.hand-picked-txt {
+  color: var(--colour-biscuit);
+  font-family: "Cormorant", serif;
+  font-size: 61px;
+}
+
+/* wise-leaf section */
+.teapot-img,
+.flowers-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wiseleaf-info {
+  background-color: var(--colour-sage);
+  padding: 3em 5em;
+  margin: 20px 0px;
+}
+
+/* reservation section */
+.home-reservation {
+  background-image: url("../images/Home/Background.png");
+  display: flex;
+  justify-content: center;
+  color: var(--colour-white);
+  align-items: center;
+  margin-top: 30px;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+.caption {
+  text-align: center;
+  max-width: 640px;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.reservation-btn {
+  color: var(--colour-sage);
+  padding: 10px 30px;
+  font-size: 12px;
+}
+
+/* gallery section */
+.gallery-container > h2 {
+  margin-left: 20px;
+}

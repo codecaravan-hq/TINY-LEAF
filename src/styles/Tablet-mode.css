@@ -1,0 +1,121 @@
+@media only screen and (min-width: 768px) {
+
+ /* ------about section----- */
+  .blend-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+ }
+
+
+  /* ----------wiseleaf grid section------ */
+  .wiseleaf-container {
+    display: grid;
+    grid-template-columns: 40px 1.5fr 70px 2fr 40px;
+    grid-template-rows: 40px 1.5fr 120px 40px 40px;
+    margin-bottom: 3em;
+  }
+
+  .green-box {
+    background-color: var(--colour-sage);
+    grid-column: 1/-1;
+    grid-row: 1/5;
+  }
+
+  .wiseleaf-img1 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+
+  .wiseleaf-info {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .wiseleaf-img2 {
+    grid-column: 4/5;
+    grid-row: 3/-1;
+  }
+
+
+  /* ..........reservation-form..... */
+  .form-container {
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-areas:
+      "label1 label1 label2 label3"
+      "input1 input1 input2 input3"
+      "label4 label4 label5 label5"
+      "input4 input4 input5 input5"
+      "label6 . . ."
+      "textarea textarea textarea textarea";
+    grid-gap: 5px;
+    margin-left: 50px;
+    max-width: 500px;
+  }
+
+  .label1 {
+    grid-area: label1;
+  }
+
+  .input1 {
+    grid-area: input1;
+  }
+
+  .label2 {
+    grid-area: label2;
+  }
+
+  .input2 {
+    grid-area: input2;
+  }
+
+  .label3 {
+    grid-area: label3;
+  }
+
+  .input3 {
+    grid-area: input3;
+  }
+
+  .label4 {
+    grid-area: label4;
+  }
+
+  .input4 {
+    grid-area: input4;
+  }
+
+  .label5 {
+    grid-area: label5;
+  }
+
+  .input5 {
+    grid-area: input5;
+  }
+
+  .label6 {
+    grid-area: label6;
+  }
+
+  .textarea {
+    grid-area: textarea;
+  }
+
+  .main-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img2-div {
+    display: flex;
+    align-self: flex-end;
+    margin: -10rem 0 2em 0;
+  }
+
+  /* -------Footer--------- */
+  .footer-info {
+    display: flex;
+    justify-content: space-around;
+  }
+}

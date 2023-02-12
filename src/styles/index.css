@@ -1,0 +1,600 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  min-width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant", serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+} */
+
+/* header section and nav bar */
+/* .navbar{
+  background-color: var(--colour-sage);
+  color: var(--colour-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 20px;
+} */
+
+
+/* .nav-elements {
+  display: none;
+  display: flex;
+  flex-flow: column nowrap;
+  list-style-type: none;
+  background-color: var(--colour-sage);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 50vh;
+  width: 200px;
+  padding-top: 3.5rem; 
+} */
+
+/* ul {
+  display: flex;
+  list-style-type: none; 
+}
+
+li {
+  padding: 10px;
+}
+
+.nav-link {
+  color: var(--colour-white);
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: var(--colour-biscuit);
+} */
+
+/* ----------hamburger-------  */
+
+
+
+/* footer section */
+/* .footer-container {
+  background-color: var(--colour-sage);
+  color: var(--colour-white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer-text {
+  min-width: 200px;
+  padding-right: 20px;
+}
+
+.social-logo {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+} */
+
+
+
+/* ---------------------------  */
+/* Home page starts here  */
+/* .home-hero {
+  background-image: url("./images/Home/Hero.png");
+  font-family: "Cormorant", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.hero-title {
+  color: var(--colour-white);
+  padding: 0px 50px;
+  font-size: 88px;
+}
+
+/* about section stextarearts here  */
+/* .blend-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.blend-img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.item {
+  flex-basis: 100%;
+  padding: 30px;
+}
+
+.line{
+  background-color: var(--colour-biscuit);
+  width: 30%;
+  height: 3px;
+  margin-left: 20px;
+}
+
+.hand-picked-txt {
+  color: var(--colour-biscuit);
+  font-family: "Cormorant", serif;
+  font-size: 61px;
+} */
+
+/* wise-leaf section starts here*/
+/* .teapot-img,
+.flowers-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wiseleaf-info {
+  background-color: var(--colour-sage);
+  padding: 3em 5em;
+  margin: 20px 0px;
+} */
+
+/* reservation section starts here */
+/* .home-reservation {
+  background-image: url("./images/Home/Background.png");
+  color: var(--colour-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+.caption {
+  text-align: center;
+  max-width: 640px;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.reservation-btn {
+  color: var(--colour-sage);
+  padding: 13px 25px;
+  font-size: 14px;
+}
+
+/* ---------gallery section-----  */
+/* .gallery-container > h2 {
+  margin-left: 20px;
+} */ 
+
+
+
+
+/* -------------------------- */
+/* Menu page starts here */
+/* hero section  */
+/* .menu-hero {
+  background-image: url("./images/Menu/Hero.png");
+  font-family: "Cormorant", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+} */
+
+/* main menu starts here  */
+/* .tea-menu-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+}
+
+.tea-menu-header {
+  grid-column: 1 / -1;
+  font-size: 50px;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+
+.tea-menu {
+  grid-column: 1 / -1;
+  color: var(--colour-sage);
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.info {
+  padding-left: 50px;
+} */
+
+/* special menu starts here  */
+/* .special-menu-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+  margin: 3em 5em;
+  padding: 2em;
+  border: 2px solid var(--colour-biscuit);
+}
+
+.special-menu-header {
+  grid-column: 1 / -1;
+  color: var(--colour-sage);
+  padding: 0%;
+  margin: 0%;
+  font-size: 35px;
+}
+
+.special-menu {
+  grid-column: 1 / -1;
+  color: var(--colour-sage);
+  font-size: 20px;
+} */
+
+/* reserve a table */
+/* .menu-reservation {
+  background-image: url("./images/Menu/Background.png");
+  color: var(--colour-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+} */ 
+
+
+
+
+/* ---------------------- */
+/* Reservation page starts here  */
+/* .reservation-hero {
+  background-image: url("./images/Reservations/Hero.png");
+  font-family: "Cormorant", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.logo-img {
+  margin: 20px 0 0 20px;
+}
+
+.form-title {
+  margin: 20px 0 0 20px;
+} */
+
+/* reservation form starts here  */
+/* .form-container {
+  display: grid;
+  grid-template-areas:
+    "label1 label2"
+    "input1 input2"
+    "label3 ."
+    "input3 ."
+    "label4 label4"
+    "input4 input4"
+    "label5 label5"
+    "input5 input5"
+    "label6 label6"
+    "textarea textarea";
+  grid-gap: 10px;
+  margin: 2em;
+  min-width: 370px;
+}
+
+.label1 {
+  grid-area: label1;
+}
+
+.input1 {
+  grid-area: input1;
+}
+
+.label2 {
+  grid-area: label2;
+}
+
+.input2 {
+  grid-area: input2;
+}
+
+.label3 {
+  grid-area: label3;
+}
+
+.input3 {
+  grid-area: input3;
+}
+
+.label4 {
+  grid-area: label4;
+}
+
+.input4 {
+  grid-area: input4;
+}
+
+.label5 {
+  grid-area: label5;
+}
+
+.input5 {
+  grid-area: input5;
+}
+
+.label6 {
+  grid-area: label6;
+}
+
+.textarea {
+  grid-area: textarea;
+  padding: 50px;
+  border: 1px solid var(--colour-sage);
+  border-radius: 5px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  margin-left: 30px;
+}
+
+.button-submit {
+  margin-left: 20%;
+}
+
+.btn-submit {
+  background-color: var(--colour-sage);
+  color: var(--colour-white);
+  margin: 20px 0px 40px 0px;
+  padding: 10px 30px;
+  border: 0ch;
+}
+
+label {
+  color: var(--colour-sage);
+}
+
+input {
+  border: 1px solid var(--colour-sage);
+  border-radius: 5px;
+  padding: 10px;
+}
+ */
+
+/* reservation menu here  */
+/* .menu-items {
+  background-image: url("./images/Reservations/Background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--colour-white);
+  min-height: 500px;
+  background-size: cover;
+}
+
+.menu-btn {
+  color: var(--colour-sage);
+  padding: 15px;
+}
+
+.img2-div {
+  display: none;
+} */
+
+
+
+/* ----------Media query section starts here-------- */
+/* ----------- media query for tablet------*/
+/* @media only screen and (min-width: 768px) { */
+/* ------about section----- */
+  /* .blend-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+ } */
+
+
+  /* ----------wiseleaf grid for tablet------ */
+  /* .wiseleaf-container {
+    display: grid;
+    grid-template-columns: 40px 1.5fr 70px 2fr 40px;
+    grid-template-rows: 40px 1.5fr 120px 40px 40px;
+    margin-bottom: 3em;
+  }
+
+  .green-box {
+    background-color: var(--colour-sage);
+    grid-column: 1/-1;
+    grid-row: 1/5;
+  }
+
+  .wiseleaf-img1 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+
+  .wiseleaf-info {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .wiseleaf-img2 {
+    grid-column: 4/5;
+    grid-row: 3/-1;
+  } */
+
+  /* ..........reservation-form for tablet..... */
+
+  /* .form-container {
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-areas:
+      "label1 label1 label2 label3"
+      "input1 input1 input2 input3"
+      "label4 label4 label5 label5"
+      "input4 input4 input5 input5"
+      "label6 . . ."
+      "textarea textarea textarea textarea";
+    grid-gap: 5px;
+    margin-left: 50px;
+    max-width: 500px;
+  }
+
+  .label1 {
+    grid-area: label1;
+  }
+
+  .input1 {
+    grid-area: input1;
+  }
+
+  .label2 {
+    grid-area: label2;
+  }
+
+  .input2 {
+    grid-area: input2;
+  }
+
+  .label3 {
+    grid-area: label3;
+  }
+
+  .input3 {
+    grid-area: input3;
+  }
+
+  .label4 {
+    grid-area: label4;
+  }
+
+  .input4 {
+    grid-area: input4;
+  }
+
+  .label5 {
+    grid-area: label5;
+  }
+
+  .input5 {
+    grid-area: input5;
+  }
+
+  .label6 {
+    grid-area: label6;
+  }
+
+  .textarea {
+    grid-area: textarea;
+  }
+
+  .main-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img2-div {
+    display: flex;
+    align-self: flex-end;
+    margin: -10rem 0 2em 0;
+  } */
+
+  /* -------Footer--------- */
+  /* .footer-info {
+    display: flex;
+    justify-content: space-around;
+  }
+} */
+
+
+
+/* ----------------------------------- */
+/* ----------- media query for desktop------*/
+/* @media only screen and (min-width: 1024px) {
+  .wiseleaf-container {
+    background-color: var(--colour-white);
+    display: grid;
+    grid-template-columns: 60px 5fr 80px 6fr 60px;
+    grid-template-rows: 50px 350px 180px 80px;
+    margin-bottom: 4em;
+  }
+
+  .green-box {
+    background-color: var(--colour-sage);
+    grid-column: 2/5;
+    grid-row: 1/4;
+  }
+
+  .wiseleaf-info {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .wiseleaf-img1 {
+    grid-column: 1/3;
+    grid-row: 2/-1;
+  }
+
+  .wiseleaf-img2 {
+    grid-column: 4/6;
+    grid-row: 3/5;
+  } */
+
+  
+  /* ..........reservation-form for desktop..... */
+  /* .main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -10em;
+  }
+
+  .img2-div {
+    display: flex;
+    align-self: center;
+    margin: -10em;
+  }
+} */

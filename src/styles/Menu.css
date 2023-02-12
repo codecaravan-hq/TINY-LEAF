@@ -1,0 +1,70 @@
+.menu-hero {
+  background-image: url("../images/Menu/Hero.png");
+  font-family: "Cormorant", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+} 
+
+/* main menu here  */
+.tea-menu-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+}
+
+.tea-menu-header {
+  grid-column: 1 / -1;
+  font-size: 50px;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+
+.tea-menu {
+  grid-column: 1 / -1;
+  color: var(--colour-sage);
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.info {
+  padding-left: 50px;
+}
+
+
+/* special menu here  */
+.special-menu-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+  margin: 3em 5em;
+  padding: 2em;
+  border: 2px solid var(--colour-biscuit);
+}
+
+.special-menu-header {
+  grid-column: 1 / -1;
+  color: var(--colour-sage);
+  padding: 0%;
+  margin: 0%;
+  font-size: 35px;
+}
+
+.special-menu {
+  grid-column: 1 / -1;
+  color: var(--colour-sage);
+  font-size: 20px;
+}
+
+/* reserve a table */
+.menu-reservation {
+  background-image: url("../images/Menu/Background.png");
+  color: var(--colour-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+}

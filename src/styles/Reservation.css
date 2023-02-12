@@ -1,0 +1,141 @@
+.reservation-hero {
+  background-image: url("../images/Reservations/Hero.png");
+  font-family: "Cormorant", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.logo-img {
+  margin: 20px 0 0 20px;
+}
+
+.form-title {
+  margin: 20px 0 0 20px;
+}
+
+/* reservation form */
+.form-container {
+  display: grid;
+  grid-template-areas:
+    "label1 label2"
+    "input1 input2"
+    "label3 ."
+    "input3 ."
+    "label4 label4"
+    "input4 input4"
+    "label5 label5"
+    "input5 input5"
+    "label6 label6"
+    "textarea textarea";
+  grid-gap: 10px;
+  margin: 2em;
+  min-width: 370px;
+}
+
+.label1 {
+  grid-area: label1;
+}
+
+.input1 {
+  grid-area: input1;
+}
+
+.label2 {
+  grid-area: label2;
+}
+
+.input2 {
+  grid-area: input2;
+}
+
+.label3 {
+  grid-area: label3;
+}
+
+.input3 {
+  grid-area: input3;
+}
+
+.label4 {
+  grid-area: label4;
+}
+
+.input4 {
+  grid-area: input4;
+}
+
+.label5 {
+  grid-area: label5;
+}
+
+.input5 {
+  grid-area: input5;
+}
+
+.label6 {
+  grid-area: label6;
+}
+
+.textarea {
+  grid-area: textarea;
+  padding: 50px;
+  border: 1px solid var(--colour-sage);
+  border-radius: 5px;
+}
+
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  margin-left: 30px;
+} 
+
+.reserve {
+  text-align: center;
+}
+
+.btn-reserve {
+  background-color: var(--colour-sage);
+  color: var(--colour-white);
+  margin: 20px 0px 40px 0px;
+  padding: 10px 40px;
+  font-size: 12px;
+  border: 0ch;
+}
+
+label {
+  color: var(--colour-sage);
+}
+
+input {
+  border: 1px solid var(--colour-sage);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+/* reservation menu */
+.menu-items {
+  background-image: url("../images/Reservations/Background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--colour-white);
+  min-height: 500px;
+  background-size: cover;
+}
+
+.menu-btn {
+  color: var(--colour-sage);
+  padding: 10px 30px;
+}
+
+.img2-div {
+  display: none;
+}
