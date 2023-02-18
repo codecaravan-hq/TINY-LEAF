@@ -1,8 +1,8 @@
 .teaMenu{
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     width: 90%;
     margin: 5%;
-    height: 1054px;
+    height: auto;
     margin-top: 60px;
 }
 
@@ -73,9 +73,10 @@ h2{
     text-align: left;
     color:#525252;
     margin-top: -27px;
-    padding-right: 10%
+    /* padding-right: 10% */
 }
 
 .price{
     margin-top: -23px;
+    margin-left: auto;
 }

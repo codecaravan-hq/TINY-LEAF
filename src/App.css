@@ -62,7 +62,7 @@
   .subtitle{
     width: 377px;
   }
-
+/* ////////////////////menue/////////////////// */
 }
 
 
@@ -157,6 +157,11 @@
     display: flex;
     margin-top: -32px;
     padding-left: 150px;
+  }
+
+  /* menu */
+  .menu-item-description{
+    padding-right: 49%;
   }
 }
 
