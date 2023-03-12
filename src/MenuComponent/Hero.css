@@ -1,0 +1,22 @@
+.hero{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 640px;
+    background-image: url(../images/Menu-image.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.hero-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 280px;
+    font-family: Cormorant;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 65px;
+    color: #FFFFFF;
+    ;
+}

@@ -1,0 +1,55 @@
+.reservation-menu{
+    width: 100%;
+    height: 640px;
+    margin-top: 54px;
+    background-image: url(../images/Reserv.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color:  rgba(15, 15, 15, 0.2);
+}
+
+.content-menu-text{
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin: 5%;
+    height: 386px;
+
+}
+
+.title-content{
+    font-family: Cormorant;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+
+}
+
+.subtitle-menu{
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -14px
+}
+
+.menu-button{
+    width: 244px;
+    height: 58px;
+}
+
+.menu-button-reservation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}

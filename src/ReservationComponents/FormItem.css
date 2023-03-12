@@ -1,0 +1,41 @@
+.create{
+    border: 1px solid;
+    width: 90%;
+    height: 867px;
+    margin: 5%;
+}
+.create label{
+    /* display: flex; */
+}
+
+.box-label input{
+    width: 150px;
+    height: 25px;
+}
+
+.box-label2 input{
+    width: 250px;
+    height: 30px;
+}
+
+.reserv-btn{
+    width: 184px;
+    height: 58px;
+}
+
+.from-text h3{
+font-family: Cormorant;
+font-size: 30px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+margin-top: 0px;
+}
+.from-text p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+
+}

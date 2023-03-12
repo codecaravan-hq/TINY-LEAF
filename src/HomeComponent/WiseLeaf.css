@@ -1,0 +1,61 @@
+.wiseleaf-container {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+
+.banner{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+}
+
+.coffePot-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-box {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    background-color: #86907d;
+}
+
+.text-box h3{
+    font-family: Cormorant;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.text-box p{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.wiseleaf-header{
+
+  margin-left: 20px;
+  padding-top: 30px;
+}
+  
+.paragraph{
+
+    margin-left: 20px;
+    padding: 5px;
+}
+  
+.teacup-image {
+    /* margin-top: 40px;  */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
