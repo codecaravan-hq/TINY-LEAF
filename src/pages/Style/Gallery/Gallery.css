@@ -4,6 +4,10 @@
   margin-bottom: 3rem;
 }
 
+div.carousel-root .theGallery {
+  margin-bottom: 3rem;
+}
+
 .slider li {
   height: 34.75rem;
   width: 51.5625rem;
@@ -32,6 +36,8 @@ h5 {
 .button-container {
   display: flex;
   margin-left: 64rem;
+  margin-bottom: 1rem;
+  justify-content: flex-end;
 }
 
 /*  THE BUTTONS SEPARATE*/
@@ -43,6 +49,7 @@ h5 {
   font-size: 3rem;
   border: none;
   background-color: none;
+  width: 100%;
 }
 
 .arrow-next {
@@ -52,6 +59,7 @@ h5 {
   background-position: center;
   font-size: 3rem;
   border: none;
+  width: 100%;
 }
 
 /*  the gap between the BUTTON'S  */
@@ -59,18 +67,19 @@ h5 {
 .arrow-next {
   padding: 10px 20px;
   font-size: 1rem;
-  margin: 0 10px; /* add this to create a gap */
+  margin: 0 10px;
+  /* add this to create a gap */
 }
 
 .carousel-status {
   display: none;
 }
 
-.theGallery .slide img {
-  display: inline-flex;
-}
-
 .slider.animated {
   display: flex;
-  margin-bottom: -13rem;
-}/*# sourceMappingURL=Gallery.css.map */
+}
+
+ul.slider.animated {
+  display: flex;
+  margin: 3px;
+}

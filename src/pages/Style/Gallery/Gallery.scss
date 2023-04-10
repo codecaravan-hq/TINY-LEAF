@@ -4,6 +4,10 @@
   margin-bottom: 3rem;
 }
 
+div.carousel-root .theGallery {
+ margin-bottom: 3rem;
+}
+
 .slider li {
   height: 34.75rem;
   width: 51.5625rem;
@@ -30,6 +34,10 @@ h5 {
 .button-container {
   display: flex;
   margin-left: 64rem;
+  margin-bottom: 1rem;
+  justify-content: flex-end;
+  // width: 100%;
+
 }
 
 /*  THE BUTTONS SEPARATE*/
@@ -42,6 +50,7 @@ h5 {
   font-size: 3rem;
   border: none;
   background-color: none;
+  width: 100%;
 }
 
 .arrow-next {
@@ -51,6 +60,7 @@ h5 {
   background-position: center;
   font-size: 3rem;
   border: none;
+  width: 100%;
 }
 
       /*  the gap between the BUTTON'S  */
@@ -66,11 +76,15 @@ h5 {
   display: none;
 }
 
-.theGallery .slide img {
-  display: inline-flex;
-}
+// .theGallery .slide img {
+//   display: inline-flex;
+// }
 
 .slider.animated {
   display: flex;
-  margin-bottom: -13rem;
+  // margin-bottom: -13rem;
+}
+ul.slider.animated {
+  display: flex;
+  margin: 3px;
 }

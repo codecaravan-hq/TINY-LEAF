@@ -1,0 +1,71 @@
+@import "../Variables/Variables.scss";
+
+.footer {
+    display: flex;
+    background-color: $sageColor;
+    align-items: center;
+    // justify-content: space-between;
+    width: 100%;
+    height: 22.5rem;
+  }
+
+.firstChild {
+    font-family: 'Cormorant';
+    color: $milk;
+}
+
+.thelogo {
+    background-color: $sageColor;
+}
+
+// p{
+//     color: $milk;
+//     font-family: 'Cormorant';
+// }
+h6 {
+    color: $milk;
+    font-family: 'Cormorant';
+    font-size: 24px;
+}
+
+.grid-container {   
+    display: grid;
+    grid-template-columns: repeat(0, 1fr);
+    padding-left: 4rem;
+    padding-right: 2rem;
+  }
+  
+  .grid-item {
+    background-color: $sageColor;
+    // border: 1px solid rgba(0, 0, 0, 0.1);
+    // text-align: center;
+    padding: 20px;
+
+  }
+  
+  
+  .grid-iteam1 {
+    padding: 0%;
+    width: 140px;
+    color: $milk;
+    font-family: 'Cormorant';
+  }
+  .grid-iteam2 {
+    padding: 0%;
+    width: 140px;
+    color: $milk;
+    font-family: 'Cormorant';
+  }
+
+  .grid-iteam3 {
+    padding: 0%;
+    width: 140px;
+    color: $milk;
+    font-family: 'Cormorant';
+  }
+  .grid-iteam4 {
+    padding: 0%;
+    width: 140px;
+    color: $milk;
+    font-family: 'Cormorant';
+  }
