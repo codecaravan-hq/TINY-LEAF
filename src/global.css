@@ -1,38 +1,78 @@
-@import "./pages/Style/Header/Header.scss";
-@import "./pages/Style/Variables/Variables.scss";
+@import './pages/Style/Header/Header.scss';
+@import './pages/Style/Variables/Variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap');
 
 body {
-    margin: 0px;
-    
+  margin: 0px;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
 }
 
 .hero {
-    display: grid;
-    grid-template-areas: "picture";
-    place-items: center;
-    background-image: url('../src/pages/img/first.png') ;
-    height: 48vw;
-    background-size: cover;
+  display: grid;
+  grid-template-areas: 'picture';
+  place-items: center;
+  background-image: url('../src/pages/img/first.png');
+  height: 48vw;
+  background-size: cover;
 }
 
 .hero-title {
-    color: white;
-    font-family: 'Cormorant';
-    font-size: 88px;
-    text-align: center; 
-    max-width: 30rem;
-    line-height: 1.09;
-
+  color: white;
+  font-family: 'Cormorant';
+  font-size: 88px;
+  text-align: center;
+  max-width: 30rem;
+  line-height: 1.09;
 }
 
-  
-
-
-@media (max-width:720px) {
-    .hero-title {
-        color: red;
-    }    
+@media (max-width: 720px) {
+  .hero-title {
+    color: red;
+  }
 }
-
-

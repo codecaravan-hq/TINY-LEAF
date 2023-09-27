@@ -1,11 +1,10 @@
-import React from 'react'
-// import React { useState } from "react";
-import '../pages/Style/Reservation/Reservation.scss';
+import { useState } from "react";
 
+import "../pages/Style/Reservation/Reservation.scss";
 
 const Reservation = () => {
-  const [title, setTitle] = useState("");
-  const [subtitle, setSubtitle] = useState("");
+  const [title] = useState("");
+  const [subtitle] = useState("");
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [groupSize, setGroupSize] = useState("");
@@ -25,38 +24,66 @@ const Reservation = () => {
       <div>
         <label>
           Date:
-          <input type="text" value={date} onChange={(event) => setDate(event.target.value)} />
+          <input
+            type="text"
+            value={date}
+            onChange={(event) => setDate(event.target.value)}
+          />
         </label>
         <label>
           Time:
-          <input type="text" value={time} onChange={(event) => setTime(event.target.value)} />
+          <input
+            type="text"
+            value={time}
+            onChange={(event) => setTime(event.target.value)}
+          />
         </label>
       </div>
       <div>
         <label>
           Group Size:
-          <input type="text" value={groupSize} onChange={(event) => setGroupSize(event.target.value)} />
+          <input
+            type="text"
+            value={groupSize}
+            onChange={(event) => setGroupSize(event.target.value)}
+          />
         </label>
       </div>
       <div>
         <label>
           Name:
-          <input type="text" value={name} onChange={(event) => setName(event.target.value)} />
+          <input
+            type="text"
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          />
         </label>
         <label>
           Contact Number:
-          <input type="text" value={contactNumber} onChange={(event) => setContactNumber(event.target.value)} />
+          <input
+            type="text"
+            value={contactNumber}
+            onChange={(event) => setContactNumber(event.target.value)}
+          />
         </label>
       </div>
       <div>
         <label>
           Comment/Request:
-          <textarea value={comment} onChange={(event) => setComment(event.target.value)} />
+          <textarea
+            value={comment}
+            onChange={(event) => setComment(event.target.value)}
+          />
         </label>
       </div>
       <div>
-        <input type="checkbox" checked={acceptTerms} onChange={(event) => setAcceptTerms(event.target.checked)} />
-        By requesting this booking, I am accepting Tiny Leaf's Terms and Conditions.
+        <input
+          type="checkbox"
+          checked={acceptTerms}
+          onChange={(event) => setAcceptTerms(event.target.checked)}
+        />
+        By requesting this booking, I am accepting Tiny Leaf's Terms and
+        Conditions.
       </div>
       <button type="submit">Reserve</button>
     </form>
