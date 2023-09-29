@@ -37,7 +37,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <section className="grid-container">
+      <section className="grid-containerHome">
         <div className="green-box"></div>
         <div className="text-box">
           <h3 className="WiseLeafEvening">Wise Leaf evening</h3>

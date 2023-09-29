@@ -9,35 +9,55 @@
 .footer {
   display: flex;
   background-color: #86907D;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 22.5rem;
 }
 
 .firstChild {
-  font-family: 'Cormorant';
-  color: #FFFFFF;
+  color: #86907D;
+  font-family: "Cormorant";
+  padding: 1rem;
+  padding-top: 12rem;
 }
 
 .thelogo {
   background-color: #86907D;
 }
 
-h6 {
-  color: #FFFFFF;
-  font-family: 'Cormorant';
-  font-size: 24px;
+.theLogoText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "roboto";
 }
 
-.grid-container {
+.logoFooter {
   display: grid;
-  grid-template-columns: repeat(0, 1fr);
-  padding-left: 4rem;
-  padding-right: 2rem;
+  align-items: center;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: "Cormorant";
+}
+
+h6 {
+  color: #FFFFFF;
+  font-family: "Cormorant";
+  font-size: 18px;
+}
+
+.grid-containerFooter {
+  display: flex;
+  gap: 4rem;
 }
 
 .grid-item {
   background-color: #86907D;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
@@ -45,26 +65,26 @@ h6 {
   padding: 0%;
   width: 140px;
   color: #FFFFFF;
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
 }
 
 .grid-iteam2 {
   padding: 0%;
-  width: 140px;
+  width: 9rem;
   color: #FFFFFF;
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
 }
 
 .grid-iteam3 {
   padding: 0%;
-  width: 140px;
+  width: 7rem;
   color: #FFFFFF;
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
 }
 
 .grid-iteam4 {
   padding: 0%;
-  width: 140px;
+  width: 8rem;
   color: #FFFFFF;
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
 }

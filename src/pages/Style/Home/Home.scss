@@ -1,25 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap');
-@import '../Variables/Variables.scss';
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap");
+@import "../Variables/Variables.scss";
 
-
-        /*  mobile - from 0 till 720px    */
+/*  mobile - from 0 till 720px    */
 /*  second section  */
 // @media (max-width:720px) {
 
-  h2 {
-    font-family: 'Cormorant', serif;
-  
-  }
+h2 {
+  font-family: "Cormorant", serif;
+}
 
-  .first-paragraph {
-    font-size: 21px;
-    font-family: Roboto;
+.first-paragraph {
+  font-size: 21px;
+  font-family: Roboto;
   padding-bottom: 5rem;
   padding-top: 1.2rem;
   line-height: 1.5rem;
 }
 
-.grid-container {
+.grid-containerHome {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
@@ -30,7 +28,6 @@
   display: grid;
   grid-column: 2/5;
   grid-row: 1/4;
-
 }
 
 .text-box {
@@ -49,79 +46,73 @@
   // padding-top: 20px;
 }
 
-
 // }
 
-              /*    FULL SCREEN    */
+/*    FULL SCREEN    */
 
-@media(min-width: 720px) {
+@media (min-width: 720px) {
   /*  this gat is visible only in inspect in the browser */
   .thumbs-wrapper {
     display: none;
   }
   .control-dots {
     display: none;
-}
-        /* second section */
-       
+  }
+  /* second section */
 
+  .about {
+    display: flex;
+    padding: 7rem 5rem;
+  }
 
-.about {
-  display: flex;
-  padding: 7rem 5rem;
-}
+  .about-text {
+    flex: 1;
+    margin-right: 4rem;
+  }
 
-.about-text {
-  flex: 1;
-  margin-right: 4rem;
-}
+  h2 {
+    font-family: "Cormorant", serif;
+  }
 
-h2 {
-  font-family: 'Cormorant', serif;
-
-}
-
-.first-paragraph {
+  .first-paragraph {
     font-size: 21px;
     font-family: Roboto;
-  padding-bottom: 6rem;
-  padding-top: 1.2rem;
-  line-height: 1.5rem;
-  color: black;
-}
+    padding-bottom: 6rem;
+    padding-top: 1.2rem;
+    line-height: 1.5rem;
+    color: black;
+  }
 
-.text-subheading {
-  color: $biscuitColor;
-  padding-top: 3rem;
-  font-size: 4rem;
-  font-family: 'Cormorant', serif;
-}
+  .text-subheading {
+    color: $biscuitColor;
+    padding-top: 3rem;
+    font-size: 4rem;
+    font-family: "Cormorant", serif;
+  }
 
-.about-img {
-  flex: 0.5;
+  .about-img {
+    flex: 0.5;
+  }
 
-}
-
-
-/*the second img*/
-.greenLeaf {
+  /*the second img*/
+  .greenLeaf {
     width: 35rem;
-}
+  }
 
-.yelow-line {
-border-top: 1px solid $biscuitColor;
-width: 25%;
-margin: 0px;
-}
+  .yelow-line {
+    border-top: 1px solid $biscuitColor;
+    width: 25%;
+    margin: 0px;
+  }
 
-        /* third section */
-.grid-container {
+  /* third section */
+  .grid-containerHome {
     display: grid;
     grid-template-columns: 70px 0fr 2px 6fr 70px;
     grid-template-rows: 60px 1fr 1fr 65px;
     padding: 5rem;
   }
-  
+
   // .green-box {
   //   // display: grid;
   //   background-color: $sageColor;
@@ -129,7 +120,7 @@ margin: 0px;
   //   grid-row: 1 / 4;
   //   width: 66rem;
   // }
-  
+
   .text-box {
     // display: grid;
     grid-column: 4 / 5;
@@ -139,7 +130,7 @@ margin: 0px;
 
   h3 {
     font-size: 40px;
-    font-family: 'Cormorant', serif;
+    font-family: "Cormorant", serif;
   }
   .text-box p {
     padding-right: 15rem;
@@ -147,7 +138,7 @@ margin: 0px;
     font-family: Roboto;
     width: 20rem;
   }
-  
+
   .teapot-image {
     display: grid;
     grid-column: 1 / 3;
@@ -155,7 +146,7 @@ margin: 0px;
     padding-top: 1rem;
     width: 34rem;
   }
-  
+
   .flowers-image {
     width: 100%;
     display: grid;
@@ -168,52 +159,121 @@ margin: 0px;
     display: grid;
     grid-template-areas: "picture";
     place-items: center;
-    background-image: url('../../img/teaBook.png') ;
+    background-image: url("../../img/teaBook.png");
     height: 48vw;
-    width:100%;
+    width: 100%;
     background-size: cover;
+  }
+
+  .image-with-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/teaBook.png");
+    height: 48vw;
+    text-align: center;
+    // width:100%;
+    background-size: cover;
+    margin-top: 4rem;
+  }
+
+  .text-overlay {
+    color: white;
+    width: 750px;
+    padding-bottom: 5rem;
+    // width :360px;
+    // height:200px;
+  }
+  .reserv {
+    font-size: 88px;
+    font-family: "Cormorant", serif;
+    margin-bottom: 1rem;
+  }
+
+  .text-overlay p {
+    font-size: 26px;
+    font-family: Roboto;
+    max-width: 34rem;
+    margin: auto;
+    text-align: center;
+  }
+  /* button reservation */
+  .grid-button {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    text-decoration: none;
+    padding: 2rem 2rem 2rem;
+  }
+
+  .my-button {
+    background-color: white;
+    color: $sageColor;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+    font-family: "Cormorant", serif;
+    grid-column: 2;
+    text-decoration: none;
+  }
+
+  // .my-button-padding {
+  //   padding: 1.5rem 5rem;
+  // }
+}
+
+.tea-book-image {
+  display: grid;
+  grid-template-areas: "picture";
+  place-items: center;
+  background-image: url("../../img/teaBook.png");
+  height: 48vw;
+  width: 100%;
+  background-size: cover;
 }
 
 .image-with-text-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../img/teaBook.png') ;
+  background-image: url("../../img/teaBook.png");
   height: 48vw;
-  text-align:center;
+  text-align: center;
   // width:100%;
   background-size: cover;
-  margin-top: 4rem;
 }
 
 .text-overlay {
   color: white;
   width: 750px;
-  padding-bottom: 5rem;
+
   // width :360px;
   // height:200px;
 }
 .reserv {
-  font-size: 88px; 
-  font-family: 'Cormorant', serif;
+  font-size: 88px;
+  font-family: "Cormorant", serif;
   margin-bottom: 1rem;
 }
 
 .text-overlay p {
   font-size: 26px;
   font-family: Roboto;
-  max-width: 34rem;
-  margin:auto;
+  width: 590px;
+  margin-bottom: 1rem;
+
+  margin: auto;
   text-align: center;
 }
-              /* button reservation */
+/* button reservation */
 .grid-button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0px;  
+  grid-gap: 20px;
   text-decoration: none;
-  padding: 2rem 2rem 2rem;
-
+  // padding: 1.5rem 5rem;
 }
 
 .my-button {
@@ -224,86 +284,9 @@ margin: 0px;
   border: none;
   font-size: 21px;
   cursor: pointer;
-  font-family: 'Cormorant', serif;
+  font-family: "Cormorant", serif;
   grid-column: 2;
   text-decoration: none;
-}
-
-// .my-button-padding {
-//   padding: 1.5rem 5rem;
-// }
-
-}
-
-
-
-
-
-.tea-book-image {
-  display: grid;
-  grid-template-areas: "picture";
-  place-items: center;
-  background-image: url('../../img/teaBook.png') ;
-  height: 48vw;
-  width:100%;
-  background-size: cover;
-}
-
-.image-with-text-container {
-display: flex;
-align-items: center;
-justify-content: center;
-background-image: url('../../img/teaBook.png') ;
-height: 48vw;
-text-align:center;
-// width:100%;
-background-size: cover;
-}
-
-.text-overlay {
-color: white;
-width: 750px;
-
-// width :360px;
-// height:200px;
-}
-.reserv {
-font-size: 88px; 
-font-family: 'Cormorant', serif;
-margin-bottom: 1rem;
-}
-
-.text-overlay p {
-font-size: 26px;
-font-family: Roboto;
-width: 590px;
-margin-bottom: 1rem;
-
-margin:auto;
-text-align: center;
-}
-/* button reservation */
-.grid-button {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 20px;  
-text-decoration: none;
-// padding: 1.5rem 5rem;
-
-}
-
-.my-button {
-background-color: white;
-color: $sageColor;
-padding: 20px 30px;
-border-radius: 5px;
-border: none;
-font-size: 21px;
-cursor: pointer;
-font-family: 'Cormorant', serif;
-grid-column: 2;
-text-decoration: none;
-
 }
 // .my-button-padding {
 //   padding: 1.5rem 5rem;

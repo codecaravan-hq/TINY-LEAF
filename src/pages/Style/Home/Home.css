@@ -10,7 +10,7 @@
 /*  mobile - from 0 till 720px    */
 /*  second section  */
 h2 {
-  font-family: 'Cormorant', serif;
+  font-family: "Cormorant", serif;
 }
 
 .first-paragraph {
@@ -21,7 +21,7 @@ h2 {
   line-height: 1.5rem;
 }
 
-.grid-container {
+.grid-containerHome {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
@@ -68,7 +68,7 @@ h2 {
     margin-right: 4rem;
   }
   h2 {
-    font-family: 'Cormorant', serif;
+    font-family: "Cormorant", serif;
   }
   .first-paragraph {
     font-size: 21px;
@@ -82,7 +82,7 @@ h2 {
     color: #F0D989;
     padding-top: 3rem;
     font-size: 4rem;
-    font-family: 'Cormorant', serif;
+    font-family: "Cormorant", serif;
   }
   .about-img {
     flex: 0.5;
@@ -97,7 +97,7 @@ h2 {
     margin: 0px;
   }
   /* third section */
-  .grid-container {
+  .grid-containerHome {
     display: grid;
     grid-template-columns: 70px 0fr 2px 6fr 70px;
     grid-template-rows: 60px 1fr 1fr 65px;
@@ -110,7 +110,7 @@ h2 {
   }
   h3 {
     font-size: 40px;
-    font-family: 'Cormorant', serif;
+    font-family: "Cormorant", serif;
   }
   .text-box p {
     padding-right: 15rem;
@@ -158,7 +158,7 @@ h2 {
   }
   .reserv {
     font-size: 88px;
-    font-family: 'Cormorant', serif;
+    font-family: "Cormorant", serif;
     margin-bottom: 1rem;
   }
   .text-overlay p {
@@ -184,7 +184,7 @@ h2 {
     border: none;
     font-size: 21px;
     cursor: pointer;
-    font-family: 'Cormorant', serif;
+    font-family: "Cormorant", serif;
     grid-column: 2;
     text-decoration: none;
   }
@@ -217,7 +217,7 @@ h2 {
 
 .reserv {
   font-size: 88px;
-  font-family: 'Cormorant', serif;
+  font-family: "Cormorant", serif;
   margin-bottom: 1rem;
 }
 
@@ -246,7 +246,7 @@ h2 {
   border: none;
   font-size: 21px;
   cursor: pointer;
-  font-family: 'Cormorant', serif;
+  font-family: "Cormorant", serif;
   grid-column: 2;
   text-decoration: none;
 }
