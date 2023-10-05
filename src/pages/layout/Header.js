@@ -1,17 +1,16 @@
-import React from 'react';
-import logo from '../img/theLogo.png';
+import React from "react";
+import logo from "../img/theLogo.png";
 import { Outlet, Link } from "react-router-dom";
-import '../Style/Header/Header.scss';
-// import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
-
+import "../Style/Header/Header.scss";
+// import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
 
 function Header() {
   return (
-    <div className='header'>
-        <img className='theLogo' src={logo} alt='' srcSet=''/>
+    <div className="header">
+      <img className="theLogo" src={logo} alt="" srcSet="" />
 
-        <nav>
-        <ul className='links'>
+      <nav>
+        <ul className="links">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -26,9 +25,13 @@ function Header() {
 
       <Outlet />
     </div>
-  )
+  );
 }
 
-export default Header
-
-      // {/* <MenuRoundedIcon className="menuIcon" style={{fontSize:"xx-large"}}/> */}
+export default Header;
+/*{
+  /* <MenuRoundedIcon
+className="menuIcon"
+style={{ fontSize: "xx-large" }}
+/> 
+}*/

@@ -6,7 +6,6 @@ import flowers from "../pages/img/flowers.png";
 import "../pages/Style/Home/Home.scss";
 // import teaBook from "../pages/img/teaBook.png";
 import { Link } from "react-router-dom";
-// import Gallery from "./layout/Gallery";
 import ImageSlider from "./layout/ImageSlider";
 import { SliderData } from "./layout/SliderData";
 
@@ -26,22 +25,25 @@ function Home() {
             <br />
             flavoursome cups were rewarded fairly.
           </p>
-          <hr className="yelow-line" />
-          <h2 className="text-subheading">
-            Hand-picked <br /> and sustainable
-          </h2>
+
+          <article>
+            <section className="theSectionosYline">
+              <hr className="yelow-line" />
+              <h2 className="text-subheading">
+                Hand-picked <br /> and sustainable
+              </h2>
+            </section>
+          </article>
         </section>
         <section className="about-img">
-          <div>
-            <img className="greenLeaf" src={img2} alt="" />
-          </div>
+          <img className="greenLeaf" src={img2} alt="" />
         </section>
       </div>
       <section className="grid-containerHome">
         <div className="green-box"></div>
         <div className="text-box">
           <h3 className="WiseLeafEvening">Wise Leaf evening</h3>
-          <p>
+          <p style={{ color: "black", width: "12rem" }}>
             Bringing together those with curious minds, speakers and observers
             alike, our Wise Leaf events are a melting pot to share, reflect and
             contemplate.
@@ -54,8 +56,11 @@ function Home() {
       <section className="image-with-text-container">
         {/* <img className="tea-book-image" src={teaBook} alt="" /> */}
         <div className="text-overlay">
-          <h4 className="reserv">Make a reservation</h4>
-          <p>
+          <h4 className="reserv">
+            Make a<br />
+            reservation
+          </h4>
+          <p id="theSecondText-overlay">
             For anything from a catchup with a long lost friend to a book club
             gathering... we’re always ready to put the kettle on.
           </p>
@@ -67,7 +72,7 @@ function Home() {
           </Link>
         </div>
       </section>
-      {/* <Gallery /> */}
+
       <ImageSlider slides={SliderData} />
     </div>
   );
