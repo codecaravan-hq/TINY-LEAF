@@ -3,7 +3,7 @@
 
 /*  mobile - from 0 till 720px    */
 /*  second section  */
-// @media (max-width:720px) {
+// @media (max-width:720px) {}
 
 h2 {
   font-family: "Cormorant", serif;
@@ -45,8 +45,6 @@ h2 {
   grid-row: 5 / 6;
   // padding-top: 20px;
 }
-
-// }
 
 /*    FULL SCREEN    */
 
@@ -366,7 +364,7 @@ h2 {
   .flowers-image {
     margin-top: 4rem;
     width: 100%;
-    grid-column: 1/-1;
-    grid-row: 6/6;
+    grid-column: 1 / -1;
+    grid-row: 6 / 6;
   }
 }

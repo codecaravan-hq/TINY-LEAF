@@ -35,6 +35,7 @@ li a {
   font-family: "Cormorant";
 }
 
+/* MEDIA QUERY */
 @media (max-width: 720px) {
   .header {
     display: none;

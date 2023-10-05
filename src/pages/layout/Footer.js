@@ -6,7 +6,7 @@ import iconFooter from "../img/iconFooter.png";
 function Footer() {
   return (
     <div className="footer">
-      <div class="grid-containerFooter">
+      <div className="grid-containerFooter">
         <section className="logoFooter">
           <img className="theLogo" src={logo} alt="logo" srcSet="" />
           <p className="theLogoText">© 2025</p>

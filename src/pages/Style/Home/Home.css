@@ -316,7 +316,7 @@ h2 {
   .flowers-image {
     margin-top: 4rem;
     width: 100%;
-    grid-column: 1/-1;
-    grid-row: 6/6;
+    grid-column: 1 / -1;
+    grid-row: 6 / 6;
   }
 }
