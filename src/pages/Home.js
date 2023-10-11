@@ -15,35 +15,37 @@ function Home() {
       <Hero />
 
       <div className="about">
-        <section className="about-text">
-          <h2>Our blends</h2>
-          <p className="first-paragraph">
-            We make our very own Tiny Leaf blends right here in
-            <br /> the tea house, offering new flavours according to
-            <br /> the season. We source all our produce sustainably
-            <br /> and make sure the hands that laboured for our
-            <br />
-            flavoursome cups were rewarded fairly.
-          </p>
+        <article className="theLineAndtext">
+          <section className="about-text">
+            <section className="theFirstText">
+              <h2>Our blends</h2>
+              <p className="first-paragraph">
+                We make our very own Tiny Leaf blends right here in
+                <br /> the tea house, offering new flavours according to
+                <br /> the season. We source all our produce sustainably
+                <br /> and make sure the hands that laboured for our
+                <br />
+                flavoursome cups were rewarded fairly.
+              </p>
+            </section>
 
-          <article>
             <section className="theSectionosYline">
               <hr className="yelow-line" />
               <h2 className="text-subheading">
                 Hand-picked <br /> and sustainable
               </h2>
             </section>
-          </article>
-        </section>
-        <section className="about-img">
-          <img className="greenLeaf" src={img2} alt="" />
-        </section>
+          </section>
+          <section className="about-img">
+            <img className="greenLeaf" src={img2} alt="" />
+          </section>
+        </article>
       </div>
       <section className="grid-containerHome">
         <div className="green-box"></div>
         <div className="text-box">
           <h3 className="WiseLeafEvening">Wise Leaf evening</h3>
-          <p style={{ color: "black", width: "12rem" }}>
+          <p style={{ color: "black", padding: "2px", marginLeft: "1rem" }}>
             Bringing together those with curious minds, speakers and observers
             alike, our Wise Leaf events are a melting pot to share, reflect and
             contemplate.
