@@ -106,4 +106,13 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .hero {
+    display: grid;
+    grid-template-areas: 'picture';
+    place-items: center;
+    background-image: url('../src/pages/img/first.png');
+    height: 19rem;
+    background-size: cover;
+  }
 }

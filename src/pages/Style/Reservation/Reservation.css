@@ -1,3 +1,11 @@
+/*:root {
+    --colour-sage: #86907D;
+    --colour-biscuit: #F0D989;
+    --colour-black: #111;
+    --colour-white: #fff;
+  
+    --font-roboto: "Roboto", Arial, sans-serif;
+  }*/
 form {
   padding: 20px;
   display: flex;
@@ -18,7 +26,7 @@ textarea {
 
 button {
   padding: 10px 20px;
-  background-color: white;
+  background-color: #86907D;
   color: white;
   border: none;
   border-radius: 5px;

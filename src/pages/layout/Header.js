@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../img/theLogo.png";
 import { Outlet, Link } from "react-router-dom";
 import "../Style/Header/Header.scss";
-// import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
 
 function Header() {
   return (
@@ -29,9 +28,3 @@ function Header() {
 }
 
 export default Header;
-/*{
-  /* <MenuRoundedIcon
-className="menuIcon"
-style={{ fontSize: "xx-large" }}
-/> 
-}*/

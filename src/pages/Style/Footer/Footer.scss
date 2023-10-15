@@ -29,7 +29,6 @@
 
 .logoFooter {
   display: grid;
-
   align-items: center;
 }
 
@@ -54,6 +53,7 @@ h6 {
 
 .allTheiteams {
   display: flex;
+  gap: 3rem;
 }
 
 .grid-item {
@@ -132,6 +132,7 @@ h6 {
   .allTheiteams {
     display: grid;
     justify-content: center;
+    gap: 0;
   }
 
   // #theIteams {

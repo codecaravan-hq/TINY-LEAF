@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./layout/Hero";
+
 import img2 from "../pages/img/img-2.png";
 import teapot from "../pages/img/teapot.png";
 import flowers from "../pages/img/flowers.png";
