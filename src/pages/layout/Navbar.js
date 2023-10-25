@@ -1,9 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../Style/Navbar/Navbar.scss";
 import logo from "../img/theLogo.png";
-import { Link } from "react-router-dom";
 import "../Style/Header/Header.scss";
-// import Home from '../Home';
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,40 +11,36 @@ function Navbar() {
     setToggleMenu(!toggleMenu);
   };
 
+  const closeMenu = () => {
+    setToggleMenu(false);
+  };
+
   return (
     <div className="theNavbar">
-      <img className="theLogo" src={logo} alt="" srcSet="" />
+      <img className="theLogo" src={logo} alt="" />
 
       <nav>
         <section className="TheLogAndBtn">
-          <img className="theLogo" src={logo} alt="" srcSet="" />
+          <img className="theLogo" src={logo} alt="" />
           <button onClick={toggleNav} className="btn">
             btn
           </button>
         </section>
-        {/*
-        {toggleMenu && (
-          <ul className="list">
-            <li className="items">Home</li>
-            <li className="items">Menu</li>
-            <li className="items">Reservation</li>
-          </ul>
-        )}
-        */}
+
         {toggleMenu && (
           <ul className="list">
             <li>
-              <Link className="items" to="/">
+              <Link className="items" to="/" onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li>
-              <Link className="items" to="/Menu">
+              <Link className="items" to="/Menu" onClick={closeMenu}>
                 Menu
               </Link>
             </li>
             <li>
-              <Link className="items" to="/Reservation">
+              <Link className="items" to="/Reservation" onClick={closeMenu}>
                 Reservation
               </Link>
             </li>

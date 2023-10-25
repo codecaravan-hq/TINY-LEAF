@@ -48,15 +48,13 @@
     padding: 20px 0px;
   }
   .btn {
-    display: flex;
-    padding-right: 2px;
+    align-self: flex-end;
   }
-}
-
-.TheLogAndBtn {
-  display: flex;
-}
-
-.theLogo {
-  padding-left: 1px;
+  .TheLogAndBtn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .theLogo {
+    padding-left: 1px;
+  }
 }

@@ -47,15 +47,15 @@
   }
 
   .btn {
-    display: flex;
-    padding-right: 2px;
+    align-self: flex-end;
   }
-}
 
-.TheLogAndBtn {
-  display: flex;
-}
+  .TheLogAndBtn {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.theLogo {
-  padding-left: 1px;
+  .theLogo {
+    padding-left: 1px;
+  }
 }
