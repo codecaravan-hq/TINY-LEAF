@@ -1,19 +1,17 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "../Style/Navbar/Navbar.scss";
 import logo from "../img/theLogo.png";
-import "../Style/Header/Header.scss";
+import Hamburger from "hamburger-react";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const location = useLocation();
 
-  const toggleNav = () => {
-    setToggleMenu(!toggleMenu);
-  };
-
-  const closeMenu = () => {
+  // Close the menu when the location (route) changes
+  useEffect(() => {
     setToggleMenu(false);
-  };
+  }, [location.pathname]);
 
   return (
     <div className="theNavbar">
@@ -22,25 +20,28 @@ function Navbar() {
       <nav>
         <section className="TheLogAndBtn">
           <img className="theLogo" src={logo} alt="" />
-          <button onClick={toggleNav} className="btn">
-            btn
-          </button>
+
+          <Hamburger
+            direction="right"
+            toggled={toggleMenu}
+            toggle={setToggleMenu}
+          />
         </section>
 
         {toggleMenu && (
           <ul className="list">
             <li>
-              <Link className="items" to="/" onClick={closeMenu}>
+              <Link to="/" onClick={() => setToggleMenu(false)}>
                 Home
               </Link>
             </li>
             <li>
-              <Link className="items" to="/Menu" onClick={closeMenu}>
+              <Link to="/Menu" onClick={() => setToggleMenu(false)}>
                 Menu
               </Link>
             </li>
             <li>
-              <Link className="items" to="/Reservation" onClick={closeMenu}>
+              <Link to="/Reservation" onClick={() => setToggleMenu(false)}>
                 Reservation
               </Link>
             </li>

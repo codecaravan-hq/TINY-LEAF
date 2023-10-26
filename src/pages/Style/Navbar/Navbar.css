@@ -35,6 +35,8 @@
     list-style: none;
     flex-direction: column;
     height: auto;
+    gap: 1.2rem;
+    padding: 3rem;
   }
   .items:nth-child(1) {
     /*border-top: 1px solid #000;*/
@@ -56,5 +58,9 @@
   }
   .theLogo {
     padding-left: 1px;
+    margin-top: 9px;
+  }
+  .hamburger-react {
+    color: #FFFFFF;
   }
 }
