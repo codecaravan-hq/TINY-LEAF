@@ -131,8 +131,9 @@ h6 {
 
   .allTheiteams {
     display: grid;
-    justify-content: center;
-    gap: 0;
+    justify-content: start;
+    gap: 2rem;
+    margin-top: 4rem;
   }
 
   // #theIteams {

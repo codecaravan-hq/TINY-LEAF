@@ -135,8 +135,9 @@ h6 {
   /* this need to be fixed till 4 */
   .allTheiteams {
     display: grid;
-    justify-content: center;
-    gap: 0;
+    justify-content: start;
+    gap: 2rem;
+    margin-top: 4rem;
   }
   .grid-iteam2 {
     padding: 0%;
