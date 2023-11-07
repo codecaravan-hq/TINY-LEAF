@@ -98,7 +98,7 @@
   flex-direction: column;
   font-family: "Cormorant", serif;
   margin-top: 50px;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 h1.title {
