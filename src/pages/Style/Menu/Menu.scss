@@ -17,7 +17,7 @@
 }
 
 .menuContainer {
-  padding: 5rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   font-family: "Cormorant", serif;
@@ -27,6 +27,8 @@
 h1.title {
   margin-right: 2px;
   font-size: 40px;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 .subtitle {
   display: flex;
@@ -36,7 +38,7 @@ h1.title {
 }
 .ptag {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: black;
   min-width: 10rem;
 }
@@ -71,12 +73,48 @@ h1.title {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.special {
+  color: $sageColor;
+  font-family: "Cormorant", serif;
+  font-size: 2.7rem;
+  border-color: #f00;
+}
+
+legend {
+  color: blue;
+}
+
+.fieldset {
+  margin: 5rem;
+  padding: 3rem;
+  border-color: yellow;
+}
+.menu-bottom-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../img/menu-bottom-pic.png");
+  height: 55vw;
+  text-align: center;
+  background-size: cover;
+  margin-top: 4rem;
+}
+
+.menuBottomHtag {
+  display: inline-flex;
+  max-width: 30rem;
+  font-size: 45px;
+  font-family: "Cormorant", serif;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 720px) {
   .menuHero {
-    margin-top: 4rem;
-    width: 100%;
-    height: 120%;
+    margin-top: 6rem;
+    width: 120%;
+    height: 125%;
   }
   .menu-title {
     margin-top: 4rem;
@@ -84,6 +122,32 @@ h1.title {
   }
 
   .menuContainer {
-    margin-top: 100px;
+    margin-top: 30px;
+  }
+  .price {
+    padding-left: 2rem;
+  }
+
+  .fieldset {
+    margin: 1rem;
+    padding: 1rem;
+    border-color: yellow;
+  }
+  .menu-bottom-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/menu-bottom-pic.png");
+    height: 125vw;
+    text-align: center;
+    background-size: cover;
+    margin-top: 4rem;
+  }
+  .menuBottomHtag {
+    padding: 20px;
+    width: 100%;
+    font-size: 35px;
+    font-family: "Cormorant", serif;
+    margin-bottom: 1rem;
   }
 }

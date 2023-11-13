@@ -75,9 +75,10 @@ body {
   text-align: center;
   max-width: 30rem;
   line-height: 1.09;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
+.costumFlag {
+  display: none;
+}
 /* MEDIA QUERY */
 
 @media (max-width: 720px) {

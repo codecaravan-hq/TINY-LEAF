@@ -188,7 +188,6 @@ h2 {
     font-size: 88px;
     font-family: "Cormorant", serif;
     margin-bottom: 1rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
   .text-overlay p {
@@ -197,7 +196,6 @@ h2 {
     max-width: 34rem;
     margin: auto;
     text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   /* button reservation */
   .grid-button {
@@ -341,7 +339,6 @@ h2 {
     font-size: 45px;
     font-family: "Cormorant", serif;
     margin-bottom: 1rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
   .text-overlay {
@@ -352,11 +349,9 @@ h2 {
   #theSecondText-overlay {
     font-size: 17px;
     font-family: Roboto;
-    max-width: 75%;
-    margin-top: 3rem;
-    // margin: auto;
+    max-width: 86%;
+    margin-top: 1rem;
     text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
   .grid-containerHome {
@@ -464,6 +459,5 @@ h2 {
     text-align: center;
     max-width: 23rem;
     line-height: 1.09;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 }

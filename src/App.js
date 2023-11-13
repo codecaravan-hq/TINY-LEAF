@@ -18,7 +18,7 @@ function App() {
           <Route path="/reservation" element={<Reservation />} />
         </Routes>
         <div>
-          <p>Custom Flag: {customFlag}</p>
+          <p className="costumFlag">Custom Flag: {customFlag}</p>
         </div>
       </Layout>
     </div>

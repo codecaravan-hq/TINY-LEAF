@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "./layout/Hero";
-
 import img2 from "../pages/img/img-2.png";
 import teapot from "../pages/img/teapot.png";
 import flowers from "../pages/img/flowers.png";
@@ -46,7 +45,7 @@ function Home() {
         <div className="green-box"></div>
         <div className="text-box">
           <h3 className="WiseLeafEvening">Wise Leaf evening</h3>
-          <p style={{ color: "black", padding: "2px", marginLeft: "1rem" }}>
+          <p style={{ color: "black", padding: "1px" }}>
             Bringing together those with curious minds, speakers and observers
             alike, our Wise Leaf events are a melting pot to share, reflect and
             contemplate.

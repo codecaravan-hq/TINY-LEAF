@@ -1,6 +1,7 @@
 import React from "react";
 import menu from "../pages/img/menu-pic.png";
 import "../pages/Style/Menu/Menu.scss";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -68,6 +69,55 @@ function Menu() {
           <p className="price">£5.50</p>
         </article>
       </div>
+      <fieldset className="fieldset">
+        <legend className="special">Special this week...</legend>
+
+        <h2 className="subtitle">Sticky Almond</h2>
+        <article className="thetext">
+          <p className="ptag">
+            Organic Sencha Green tea from China, mixed with apple, cinnamon,
+            ginger and vanilla
+          </p>
+          <p className="price">£5.50</p>
+        </article>
+        <br />
+
+        <h2 className="subtitle">Green Sun</h2>
+        <article className="thetext">
+          <p className="ptag">
+            Blood orange and orange bark make this a fruity and delightfully
+            sour tea
+          </p>
+          <p className="price">£5.50</p>
+        </article>
+        <br />
+
+        <h2 className="subtitle">Christmas Special </h2>
+        <article className="thetext">
+          <p className="ptag">
+            Organic Assam Black tea with cinnamon, caradamon and pineapple
+          </p>
+          <p className="price">£6</p>
+        </article>
+      </fieldset>
+
+      <section className="menu-bottom-pic">
+        <div className="text-overlay">
+          <h4 className="menuBottomHtag">
+            Shall we put your name in the tea pot?
+          </h4>
+          <p id="theSecondText-overlay">
+            For anything from a catchup with a long lost friend to a book club
+            gathering... we’re always ready to put the kettle on.
+          </p>
+          <Link className="grid-button" to="/Reservation">
+            {" "}
+            <button className="my-button my-button-padding">
+              Reserve a table
+            </button>{" "}
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
