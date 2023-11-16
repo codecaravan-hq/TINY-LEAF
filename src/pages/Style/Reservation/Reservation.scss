@@ -7,13 +7,16 @@ form {
   align-items: center;
 }
 label {
+  color: $sageColor;
   margin: 10px 0;
 }
 input,
 textarea {
   padding: 10px;
-  margin: 10px 0;
+  margin: 17px 0;
   font-size: 16px;
+  height: 45px;
+  border: 2px solid $sageColor;
 }
 button {
   padding: 10px 20px;
@@ -23,4 +26,61 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.reserv-sub {
+  color: $almostBlack;
+}
+
+.container-reservat {
+  padding: 70px 300px 70px 300px;
+}
+
+.top-text {
+  display: grid;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.ptag-reserv {
+  color: $almostBlack;
+  width: 25rem;
+}
+
+.dateTimeGroup {
+  display: flex;
+  gap: 2rem;
+}
+
+.nameContactNumber {
+  display: flex;
+  gap: 2rem;
+  display: flex;
+}
+.dateTimeGroupSize {
+  width: 145px;
+}
+
+#name,
+#contact {
+  width: 235px;
+}
+
+#commentRequest {
+  width: 502px;
+  height: 6rem;
+}
+
+.conditions {
+  display: flex;
+  gap: 15px;
+}
+/*#checkbox {
+  padding-top: 0px;
+}*/
+
+.agreement {
+  display: flex;
+  color: $almostBlack;
+  align-items: center;
 }

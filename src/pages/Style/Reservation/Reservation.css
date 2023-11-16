@@ -14,22 +14,83 @@ form {
 }
 
 label {
+  color: #86907d;
   margin: 10px 0;
 }
 
 input,
 textarea {
   padding: 10px;
-  margin: 10px 0;
+  margin: 17px 0;
   font-size: 16px;
+  height: 45px;
+  border: 2px solid #86907d;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #86907D;
+  background-color: #86907d;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.reserv-sub {
+  color: #0f0f0f;
+}
+
+.container-reservat {
+  padding: 70px 300px 70px 300px;
+}
+
+.top-text {
+  display: grid;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.ptag-reserv {
+  color: #0f0f0f;
+  width: 25rem;
+}
+
+.dateTimeGroup {
+  display: flex;
+  gap: 2rem;
+}
+
+.nameContactNumber {
+  display: flex;
+  gap: 2rem;
+  display: flex;
+}
+
+.dateTimeGroupSize {
+  width: 145px;
+}
+
+#name,
+#contact {
+  width: 235px;
+}
+
+#commentRequest {
+  width: 502px;
+  height: 6rem;
+}
+
+.conditions {
+  display: flex;
+  gap: 15px;
+}
+
+/*#checkbox {
+  padding-top: 0px;
+}*/
+.agreement {
+  display: flex;
+  color: #0f0f0f;
+  align-items: center;
 }
