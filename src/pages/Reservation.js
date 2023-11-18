@@ -19,7 +19,26 @@ const Reservation = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    // Add your form submission logic here
   };
+
+  // Generate time options
+  const generateTimeOptions = () => {
+    const hours = [...Array(24).keys()]; // 0 to 23
+    const minutes = ["00", "15", "30", "45"];
+
+    const timeOptions = [];
+    hours.forEach((hour) => {
+      minutes.forEach((minute) => {
+        const formattedTime = `${hour.toString().padStart(2, "0")}:${minute}`;
+        timeOptions.push(formattedTime);
+      });
+    });
+
+    return timeOptions;
+  };
+
+  const timeOptions = generateTimeOptions();
 
   return (
     <>
@@ -57,7 +76,7 @@ const Reservation = () => {
                   <br />
                   <input
                     className="dateTimeGroupSize"
-                    type="text"
+                    type="date" // Use type="date" for a date input
                     value={date}
                     onChange={(event) => setDate(event.target.value)}
                   />
@@ -67,24 +86,40 @@ const Reservation = () => {
                 <label>
                   Time
                   <br />
-                  <input
+                  <select
                     className="dateTimeGroupSize"
-                    type="text"
                     value={time}
                     onChange={(event) => setTime(event.target.value)}
-                  />
+                  >
+                    <option value=""></option>
+                    {timeOptions.map((option) => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
                 </label>
               </div>
               <div className="theLabels">
                 <label>
                   Group Size
                   <br />
-                  <input
+                  <select
                     className="dateTimeGroupSize"
-                    type="text"
                     value={groupSize}
                     onChange={(event) => setGroupSize(event.target.value)}
-                  />
+                  >
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
                 </label>
               </div>
             </article>
