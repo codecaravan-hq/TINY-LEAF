@@ -7,7 +7,7 @@
     --font-roboto: "Roboto", Arial, sans-serif;
   }*/
 form {
-  padding: 20px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,37 +23,45 @@ textarea {
   padding: 10px;
   margin: 17px 0;
   font-size: 16px;
-  height: 45px;
+  height: 49px;
   border: 2px solid #86907d;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 15px 72px;
   background-color: #86907d;
   color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+  border-radius: 0px;
+  font-size: 20px;
+  font-family: "Cormorant", serif;
 }
 
 .reserv-sub {
+  font-size: 35px;
   color: #0f0f0f;
+  margin-bottom: 17px;
+  font-weight: 400;
 }
 
 .container-reservat {
-  padding: 70px 300px 70px 300px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 70px 15px 70px 0px;
 }
 
 .top-text {
   display: grid;
-  justify-content: flex-start;
-  justify-items: flex-start;
+  justify-content: center;
+  margin-right: 2rem;
 }
 
 .ptag-reserv {
   color: #0f0f0f;
-  width: 25rem;
+  width: 29rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .dateTimeGroup {
@@ -83,14 +91,38 @@ button {
 
 .conditions {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
-/*#checkbox {
-  padding-top: 0px;
-}*/
 .agreement {
   display: flex;
   color: #0f0f0f;
   align-items: center;
+  width: 30.18rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.theLeftIcon {
+  height: 70px;
+  width: 87px;
+  margin-top: 40px;
+  margin-right: 15px;
+  margin-left: 150px;
+}
+
+.theRightIcon {
+  margin-left: 10px;
+  margin-top: 170px;
+}
+
+.allInOne {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-right: 0px;
+}
+
+.theLabels {
+  margin-top: 20px;
 }

@@ -5,25 +5,27 @@ import "../Style/Header/Header.scss";
 
 function Header() {
   return (
-    <div className="header">
-      <img className="theLogo" src={logo} alt="" srcSet="" />
+    <>
+      <div className="header">
+        <img className="theLogo" src={logo} alt="" srcSet="" />
 
-      <nav>
-        <ul className="links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/Menu">Menu</Link>
-          </li>
-          <li>
-            <Link to="/Reservation">Reservation</Link>
-          </li>
-        </ul>
-      </nav>
+        <nav>
+          <ul className="links">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/Menu">Menu</Link>
+            </li>
+            <li>
+              <Link to="/Reservation">Reservation</Link>
+            </li>
+          </ul>
+        </nav>
 
-      <Outlet />
-    </div>
+        <Outlet />
+      </div>
+    </>
   );
 }
 

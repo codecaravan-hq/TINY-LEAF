@@ -9,14 +9,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&display=swap");
 .header {
   display: flex;
-  background-color: #86907D;
+  background-color: #86907d;
   align-items: center;
   justify-content: space-between;
 }
 
 .theLogo {
   height: 1.9rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
 }
 
 .links {
@@ -24,9 +24,10 @@
   height: 40px;
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 40px;
   justify-content: flex-end;
-  margin-top: 30px;
+  margin-top: 22px;
+  margin-right: 2rem;
 }
 
 li a {
@@ -40,7 +41,7 @@ li a {
   .header {
     display: none;
     /* hiding all the bar */
-    background-color: #86907D;
+    background-color: #86907d;
   }
   .tea-book-image {
     width: 100%;
