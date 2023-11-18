@@ -260,10 +260,9 @@ h2 {
 
 .text-overlay p {
   font-size: 26px;
-  font-family: Roboto;
+  font-family: "Cormorant", serif;
   width: 590px;
   margin-bottom: 1rem;
-
   margin: auto;
   text-align: center;
 }
@@ -279,7 +278,7 @@ h2 {
 .my-button {
   background-color: white;
   color: $sageColor;
-  padding: 20px 30px;
+  padding: 15px 30px;
   border-radius: 0px;
   border: none;
   font-size: 21px;
@@ -287,6 +286,7 @@ h2 {
   font-family: "Cormorant", serif;
   grid-column: 2;
   text-decoration: none;
+  width: 15rem;
 }
 // .my-button-padding {
 //   padding: 1.5rem 5rem;

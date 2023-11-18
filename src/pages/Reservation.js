@@ -2,6 +2,7 @@ import { useState } from "react";
 import reservations from "../pages/img/reserv.png";
 import leftIconReservation from "../pages/img/leftIcon-reservation.png";
 import rightIconReservation from "../pages/img/righticon-reservation.png";
+import { Link } from "react-router-dom";
 
 import "../pages/Style/Reservation/Reservation.scss";
 
@@ -148,6 +149,21 @@ const Reservation = () => {
           />
         </section>
       </article>
+      <section className="reserv-bottom-pic">
+        <div className="reserv-text-overlay">
+          <h4 className="reservBottomHtag">No storms in our tea cups</h4>
+          <p id="reservTheSecondText-overlay">
+            We make our blends with love and care, so you can taste aromas from
+            across the globe right here in our tea house
+          </p>
+          <Link to="/Reservation">
+            {" "}
+            <button className="my-button " id="my-button-reserv">
+              See what’s on the menu
+            </button>{" "}
+          </Link>
+        </div>
+      </section>
     </>
   );
 };

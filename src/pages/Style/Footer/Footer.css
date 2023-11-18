@@ -7,7 +7,7 @@
     --font-roboto: "Roboto", Arial, sans-serif;
   }*/
 .footer {
-  background-color: #86907D;
+  background-color: #86907d;
   align-items: center;
   display: flex;
   height: 22.5rem;
@@ -16,14 +16,14 @@
 }
 
 .firstChild {
-  color: #86907D;
+  color: #86907d;
   font-family: "Cormorant";
   padding: 1rem;
   padding-top: 12rem;
 }
 
 .thelogo {
-  background-color: #86907D;
+  background-color: #86907d;
 }
 
 .theLogoText {
@@ -32,6 +32,7 @@
   align-items: center;
   font-size: 14px;
   font-family: "roboto";
+  margin-left: 68px;
 }
 
 .logoFooter {
@@ -40,12 +41,12 @@
 }
 
 p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Cormorant";
 }
 
 h6 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Cormorant";
   font-size: 18px;
 }
@@ -61,7 +62,7 @@ h6 {
 }
 
 .grid-item {
-  background-color: #86907D;
+  background-color: #86907d;
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 20px;
@@ -70,28 +71,28 @@ h6 {
 .grid-iteam1 {
   padding: 0%;
   width: 140px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Cormorant";
 }
 
 .grid-iteam2 {
   padding: 0%;
   width: 9rem;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Cormorant";
 }
 
 .grid-iteam3 {
   padding: 0%;
-  width: 7rem;
-  color: #FFFFFF;
+  width: 7.2rem;
+  color: #ffffff;
   font-family: "Cormorant";
 }
 
 .grid-iteam4 {
   padding: 0%;
   width: 8rem;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Cormorant";
 }
 
@@ -142,19 +143,19 @@ h6 {
   .grid-iteam2 {
     padding: 0%;
     width: 9rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Cormorant";
   }
   .grid-iteam3 {
     padding: 0%;
     width: 7rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Cormorant";
   }
   .grid-iteam4 {
     padding: 0%;
     width: 8rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Cormorant";
   }
   .logoFooter {

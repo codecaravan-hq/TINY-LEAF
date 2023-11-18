@@ -217,7 +217,7 @@ h2 {
 
 .text-overlay p {
   font-size: 26px;
-  font-family: Roboto;
+  font-family: "Cormorant", serif;
   width: 590px;
   margin-bottom: 1rem;
   margin: auto;
@@ -235,7 +235,7 @@ h2 {
 .my-button {
   background-color: white;
   color: #86907d;
-  padding: 20px 30px;
+  padding: 15px 30px;
   border-radius: 0px;
   border: none;
   font-size: 21px;
@@ -243,6 +243,7 @@ h2 {
   font-family: "Cormorant", serif;
   grid-column: 2;
   text-decoration: none;
+  width: 15rem;
 }
 
 .theLineAndtext {
