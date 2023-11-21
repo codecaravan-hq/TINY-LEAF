@@ -24,7 +24,7 @@ const Reservation = () => {
 
   // Generate time options
   const generateTimeOptions = () => {
-    const hours = [...Array(24).keys()]; // 0 to 23
+    const hours = [...Array(24).keys()];
     const minutes = ["00", "15", "30", "45"];
 
     const timeOptions = [];
@@ -54,10 +54,10 @@ const Reservation = () => {
             alt="left icon "
           />
         </section>
-
         <div className="container-reservat">
           <section className="top-text">
-            <h2 className="reserv-sub">Reserve a table</h2>
+            <h2 className="reserv-sub1">Reserve a table</h2>
+            <h2 className="reserv-subSecond">Book a table</h2>
             <article className="thetext">
               <p className="ptag-reserv">
                 We take bookings for groups up to 6. We get busy on weekends so
@@ -100,6 +100,7 @@ const Reservation = () => {
                   </select>
                 </label>
               </div>
+
               <div className="theLabels">
                 <label>
                   Group Size
