@@ -11,4 +11,3 @@ The aims of this project are:
 - To make it fully responsive, and to write semantic and accessible HTML
 - To practise capturing user information from a booking form (something you’ll do all the time as a FE developer!)
 - Continue getting comfortable working with Git and making Pull Requests
-- Learn to work in an Agile way by creating your own Kanban board of tasks, estimating your tickets and planning your Sprints
