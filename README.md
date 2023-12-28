@@ -23,11 +23,11 @@ Before you start working on this project, make sure you **fork this repository f
 
 This will ensure your personal version of TINY LEAF is connected to CodeCaravan's - making it possible to open Pull Requests pointing to CodeCaravan on Github, which will enable CodeCaravan mentors to review your code if you request it.
 
-Follow these steps:
+**Follow these steps:**
 
-- Fork this repo: this will create a copy of it on your own Github account
-- Clone this new personal version of the repo (you should then be on github.com/yourgithubusername/TINY-LEAF, where 'yourgithubusername' is your Github username)
-- Start working and committing code. If you're not sure you've done it right, test it with one simple change at first. Add 1-2 lines of code, commit and push, and then check that github.com/yourgithubusername/TINY-LEAF reflects the change on github.com
-- When you're ready, open a Pull Request from your repo pointing to CodeCaravan's version
+- **Fork this repo:** this will create a copy of it on your own Github account
+- **Then clone** this new personal version of the repo (you should now be on github.com/yourgithubusername/TINY-LEAF, where 'yourgithubusername' is your Github username)
+- **Start working** and committing code. If you're not sure you've done it right, test it with one simple change at first. Add 1-2 lines of code, commit and push, and then check that github.com/yourgithubusername/TINY-LEAF reflects the change
+- When you're ready, **open a Pull Request** from your repo pointing to CodeCaravan's version
 
 If you have any trouble or questions, feel free to ask in the [#code-reviews channel on Discord](https://discord.gg/BdeBF5vz).
