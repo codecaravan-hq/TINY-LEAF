@@ -13,6 +13,8 @@ The aims of this project are:
 - Continue getting comfortable working with Git and making Pull Requests
 - Bonus: Practice working in an Agile way by creating your own Kanban board of tasks, estimating your tickets and planning your Sprints
 
+[Get the project here](https://codecaravan.io/projects/tinyleaf?source=ghbaserepo): receive the designs, styleguide, task list and join weekly mentoring sessions with a senior developer to help you make better progress.
+
 ## How to get your code reviewed
 
 You can get your code reviewed by a CodeCaravan mentor and experienced developer. This will be done by opening a Pull Request on Github, which your reviewer will comment on.
