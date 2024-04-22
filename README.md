@@ -32,4 +32,4 @@ This will ensure your personal version of TINY LEAF is connected to CodeCaravan'
 - **Start working** and committing code. If you're not sure you've done it right, test it with one simple change at first. Add 1-2 lines of code, commit and push, and then check that github.com/yourgithubusername/TINY-LEAF reflects the change
 - When you're ready, **open a Pull Request** from your repo pointing to CodeCaravan's version
 
-If you have any trouble or questions, feel free to ask in the [#code-reviews channel on Discord](https://discord.gg/BdeBF5vz).
+If you have any trouble or questions, feel free to ask in the [#code-reviews channel on Discord](https://discord.gg/j9KRkf3r8j).
